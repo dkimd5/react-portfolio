@@ -1,0 +1,12 @@
+.home__bg {
+    background-image: url(../img/image.jpg);
+    background-color: #1f0568;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+li.nav__items {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
