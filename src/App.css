@@ -126,3 +126,16 @@ button.btn {
   width: 180px;
   margin: 0px 10px;
 }
+
+.p__color {
+  color: rgba(198,201,216,.75);
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Poppins,sans-serif;
+  margin-bottom: 15px;
+}
+
+button.about.btn.pointer:hover {
+  background: #fff;
+  color: #000!important;
+}
