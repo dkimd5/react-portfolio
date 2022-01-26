@@ -134,3 +134,8 @@ button.btn {
   font-family: Poppins,sans-serif;
   margin-bottom: 15px;
 }
+
+button.about.btn.pointer:hover {
+  background: #fff;
+  color: #000!important;
+}

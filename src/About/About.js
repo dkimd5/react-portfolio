@@ -31,6 +31,14 @@ function About() {
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Doloribus iusto magnam fuga corrupti fugiat voluptatum aliquam
               </p>
+              <div className="about__button d__flex align__items_center">
+                <a href="#">
+                  <button className="about btn pointer">Download Cv</button>
+                </a>
+                <a href="#">
+                  <button className="about btn pointer">Hire Me</button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
