@@ -13,6 +13,90 @@ function Service() {
           but the majority have suffered alteration.
         </p>
       </div>
+      <div className="container">
+        <div className="row">
+          <div className="col__3">
+            <div className="service__box pointer">
+              <div className="icon"></div>
+              <div className="service__meta">
+                <h1 className="service__text">Lorem, ipsum.</h1>
+                <p className="p service__text p__color">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Numquam ipsum similique aspernatur, blanditiis incidunt sint
+                  dolorem eligendi quia.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col__3">
+            <div className="service__box pointer">
+              <div className="icon"></div>
+              <div className="service__meta">
+                <h1 className="service__text">Lorem, ipsum.</h1>
+                <p className="p service__text p__color">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Numquam ipsum similique aspernatur, blanditiis incidunt sint
+                  dolorem eligendi quia.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col__3">
+            <div className="service__box pointer">
+              <div className="icon"></div>
+              <div className="service__meta">
+                <h1 className="service__text">Lorem, ipsum.</h1>
+                <p className="p service__text p__color">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Numquam ipsum similique aspernatur, blanditiis incidunt sint
+                  dolorem eligendi quia.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col__3">
+            <div className="service__box pointer">
+              <div className="icon"></div>
+              <div className="service__meta">
+                <h1 className="service__text">Lorem, ipsum.</h1>
+                <p className="p service__text p__color">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Numquam ipsum similique aspernatur, blanditiis incidunt sint
+                  dolorem eligendi quia.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col__3">
+            <div className="service__box pointer">
+              <div className="icon"></div>
+              <div className="service__meta">
+                <h1 className="service__text">Lorem, ipsum.</h1>
+                <p className="p service__text p__color">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Numquam ipsum similique aspernatur, blanditiis incidunt sint
+                  dolorem eligendi quia.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col__3">
+            <div className="service__box pointer">
+              <div className="icon"></div>
+              <div className="service__meta">
+                <h1 className="service__text">Lorem, ipsum.</h1>
+                <p className="p service__text p__color">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Numquam ipsum similique aspernatur, blanditiis incidunt sint
+                  dolorem eligendi quia.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
