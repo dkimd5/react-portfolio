@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contact.css";
+import contactImg from "../img/contactImg.jpg";
 
 function Contact() {
   return (
@@ -43,6 +44,9 @@ function Contact() {
               </button>
             </div>
           </div>
+        </div>
+        <div className="col__2">
+          <img src={contactImg} alt="" className="contact__img" />
         </div>
       </div>
     </div>

@@ -47,3 +47,10 @@ textarea#message{
 button.btn.contact.pointer {
     margin: 20px 0px;
 }
+
+.contact__img{
+    border-radius: 10px;
+    width: 55%;
+    overflow: hidden;
+    margin: 0 auto;
+}
