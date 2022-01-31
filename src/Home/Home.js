@@ -10,7 +10,7 @@ function Home() {
   });
 
   return (
-    <div className="home">
+    <div className="home" id="Home">
       <div className="home__bg">
         <div className="header d__flex align__items__center pxy__30">
           <div className="logo">
@@ -27,8 +27,8 @@ function Home() {
               <a href="#Services">
                 <li className="nav__items mx__15">Services</li>
               </a>
-              <a href="#Portfolio">
-                <li className="nav__items mx__15">Portfolio</li>
+              <a href="#Projects">
+                <li className="nav__items mx__15">Projects</li>
               </a>
               <a href="#Blog">
                 <li className="nav__items mx__15">Blog</li>
