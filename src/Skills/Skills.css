@@ -1,0 +1,21 @@
+.devicon {
+    font-size: 5rem;
+}
+
+.devicon-color {
+    color: #fff;
+}
+
+.devicon-color2 {
+    color: #f783ac;
+}
+
+h2.heading.p__color {
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.box-container {
+    display: flex;
+}
