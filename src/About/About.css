@@ -46,3 +46,9 @@ a.bottom__to__top {
 a.bottom__to__top.active {
     display: flex;
 }
+
+@media only screen and (max-width: 1024px) {
+    .p__color {
+        font-size: 15px!important;
+    }
+}
