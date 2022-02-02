@@ -32,3 +32,9 @@ p.service__text.p__color {
 .service__box:hover p.service__text.p__color {
     color: #fff!important;
 }
+
+@media only screen and (max-width: 1024px) {
+    .service__box {
+        padding: 32px;
+    }
+}
