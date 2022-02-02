@@ -54,8 +54,6 @@ function Service() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="row">
           <div className="col__3">
             <div className="service__box pointer">
               <div className="icon"></div>
