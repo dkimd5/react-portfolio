@@ -90,3 +90,17 @@ li.sideNavbar{
        height: 30px;
    }
 }
+
+@media only screen and (max-width: 425px){
+    h2.home__text{
+        font-size: 32px;
+    }
+
+    h3.home__text {
+        font-size: 40px;
+    }
+
+    h1.home__text {
+        font-size: 14px;
+    }
+}
