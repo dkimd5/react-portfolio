@@ -21,6 +21,10 @@ li.nav__items {
     font-size: 18px;
 }
 
+li.nav__items:hover > a {
+    color: #F9004D;
+}
+
 .navbar.active {
     position: fixed;
     z-index: 1000;
