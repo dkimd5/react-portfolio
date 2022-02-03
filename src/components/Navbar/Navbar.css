@@ -1,5 +1,10 @@
-.header {
+.navbar {
+    background-color: #191919;
+}
+
+.navbar__container {
     transition: .4s all ease;
+    padding: 0px 30px;
 }
 
 li.nav__items {

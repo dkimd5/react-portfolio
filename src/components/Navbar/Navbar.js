@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import logo from "../../images/logo.png";
+import logo from "../../images/logo-haski.png";
 
 function Navbar() {
   //fixed Header
@@ -13,8 +13,8 @@ function Navbar() {
   const [show, setShow] = useState(false);
 
   return (
-    <div>
-      <div className="header d__flex align__items__center pxy__30">
+    <div className="navbar">
+      <div className="navbar__container section__container d__flex align__items__center pxy__30">
         <div className="logo">
           <img src={logo} alt="logo" />
         </div>
