@@ -1,9 +1,9 @@
 .navbar {
     background-color: #191919;
+    transition: .4s all ease;
 }
 
 .navbar__container {
-    transition: .4s all ease;
     padding: 0px 30px;
 }
 
@@ -12,12 +12,11 @@ li.nav__items {
     padding-bottom: 15px;
 }
 
-.header.active {
+.navbar.active {
     position: fixed;
     z-index: 1000;
+    background-color: #23242c;
     width: 100%;
-    padding: 0px 30px;
-    background-color: #191919;
 }
 
 .toggle__menu {
@@ -49,7 +48,7 @@ li.sideNavbar{
         display: flex;
     }
 
-    .header {
+    .navbar__container {
         justify-content: space-between;
     }
 

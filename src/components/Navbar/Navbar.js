@@ -5,8 +5,8 @@ import logo from "../../images/logo-haski.png";
 function Navbar() {
   //fixed Header
   window.addEventListener("scroll", function () {
-    const header = document.querySelector(".header");
-    header.classList.toggle("active", window.scrollY > 0);
+    const navbar = document.querySelector(".navbar");
+    navbar.classList.toggle("active", window.scrollY > 0);
   });
 
   //Toggle menu
@@ -19,25 +19,26 @@ function Navbar() {
           <img src={logo} alt="logo" />
         </div>
         <div className="navigation pxy_30">
-          <ul className="navbar d__flex">
-            <a href="#Home">
-              <li className="nav__items mx__15">Home</li>
-            </a>
-            <a href="#About">
-              <li className="nav__items mx__15">About</li>
-            </a>
-            <a href="#Services">
-              <li className="nav__items mx__15">Services</li>
-            </a>
-            <a href="#Projects">
-              <li className="nav__items mx__15">Projects</li>
-            </a>
-            <a href="#Blog">
-              <li className="nav__items mx__15">Blog</li>
-            </a>
-            <a href="#Contact">
-              <li className="nav__items mx__15">Contact</li>
-            </a>
+          <ul className="navbar__list d__flex">
+            <li className="nav__items mx__15">
+              <a href="#Home">Home</a>
+            </li>
+            <li className="nav__items mx__15">
+              <a href="#About">About</a>
+            </li>
+            <li className="nav__items mx__15">
+              <a href="#Services">Services</a>
+            </li>
+            <li className="nav__items mx__15">
+              {" "}
+              <a href="#Projects">Projects</a>
+            </li>
+            <li className="nav__items mx__15">
+              <a href="#Blog">Blog</a>
+            </li>
+            <li className="nav__items mx__15">
+              <a href="#Contact">Contact</a>
+            </li>
           </ul>
         </div>
         {/* Toggle menu */}
