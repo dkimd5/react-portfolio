@@ -49,7 +49,7 @@ h3.home__text {
 }
 
 .toggle__menu {
-    display: flex;
+    display: none;
     justify-content: flex-end;
     float: right;
     z-index: 1000;
@@ -73,6 +73,10 @@ li.sideNavbar{
 }
 
 @media only screen and (max-width: 768px){
+    .toggle__menu {
+        display: flex;
+    }
+
     .header {
         justify-content: space-between;
     }
