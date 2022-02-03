@@ -8,6 +8,15 @@
     justify-content: space-between;
 }
 
+.logo {
+    cursor: pointer;
+}
+
+.logo:hover {
+    transition: .4s all ease;
+    filter: brightness(150%);
+}
+
 li.nav__items {
     font-size: 18px;
 }
