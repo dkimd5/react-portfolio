@@ -6,6 +6,9 @@
 .navbar__container {
     padding: 0px 3%;
     justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
 }
 
 .logo {
@@ -17,11 +20,16 @@
     filter: brightness(150%);
 }
 
-li.nav__items {
-    font-size: 18px;
+.navbar__list {
+    display: flex;
 }
 
-li.nav__items:hover > a {
+.nav__items {
+    font-size: 18px;
+    margin: 0px 15px;
+}
+
+.nav__items:hover > a {
     color: #F9004D;
 }
 
@@ -40,7 +48,8 @@ li.nav__items:hover > a {
     width: 100%;
 }
 
-ul.sidebar.d__flex {
+.sideNavbar__list {
+    display: flex;
     flex-wrap: wrap;
     height: 100%;
     position: fixed;
@@ -52,7 +61,7 @@ ul.sidebar.d__flex {
     flex-direction: column;
 }
 
-li.sideNavbar{
+.sideNavbar__item{
     padding: 25px 30px;
 }
 

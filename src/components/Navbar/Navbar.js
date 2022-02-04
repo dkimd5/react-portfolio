@@ -14,29 +14,29 @@ function Navbar() {
 
   return (
     <div className="navbar">
-      <div className="navbar__container section__container d__flex align__items__center pxy__30">
+      <div className="navbar__container section__container">
         <div className="logo">
           <img src={logo} alt="logo" />
         </div>
-        <div className="navigation pxy_30">
-          <ul className="navbar__list d__flex">
-            <li className="nav__items mx__15">
+        <div className="navigation">
+          <ul className="navbar__list">
+            <li className="nav__items">
               <a href="#Home">Home</a>
             </li>
-            <li className="nav__items mx__15">
+            <li className="nav__items">
               <a href="#About">About</a>
             </li>
-            <li className="nav__items mx__15">
+            <li className="nav__items">
               <a href="#Services">Services</a>
             </li>
-            <li className="nav__items mx__15">
+            <li className="nav__items">
               {" "}
               <a href="#Projects">Projects</a>
             </li>
-            <li className="nav__items mx__15">
+            <li className="nav__items">
               <a href="#Blog">Blog</a>
             </li>
-            <li className="nav__items mx__15">
+            <li className="nav__items">
               <a href="#Contact">Contact</a>
             </li>
           </ul>
@@ -60,23 +60,23 @@ function Navbar() {
         </div>
         {show ? (
           <div className="sideNavbar">
-            <ul className="sidebar d__flex">
-              <li className="sideNavbar">
+            <ul className="sideNavbar__list">
+              <li className="sideNavbar__item">
                 <a href="#home">Home</a>
               </li>
-              <li className="sideNavbar">
+              <li className="sideNavbar__item">
                 <a href="#about">About</a>
               </li>
-              <li className="sideNavbar">
+              <li className="sideNavbar__item">
                 <a href="#services">Services</a>
               </li>
-              <li className="sideNavbar">
+              <li className="sideNavbar__item">
                 <a href="#projects">Projects</a>
               </li>
-              <li className="sideNavbar">
+              <li className="sideNavbar__item">
                 <a href="#blog">Blog</a>
               </li>
-              <li className="sideNavbar">
+              <li className="sideNavbar__item">
                 <a href="#contact">Contact</a>
               </li>
             </ul>
