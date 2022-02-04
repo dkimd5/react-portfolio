@@ -19,13 +19,13 @@ function Projects() {
         <div className="container">
           <div className="row">
             <div className="col__3">
-              <div className="project__box pointer relative">
-                <div className="project__box__img pointer relative">
+              <div className="project__box">
+                <div className="project__box__img">
                   <div className="project__img__box">
                     <img src={Project1} alt="" className="project__img" />
                   </div>
                   <div className="mask__effect"></div>
-                  <div className="project__meta absolute">
+                  <div className="project__meta">
                     <h5 className="project__text">Development</h5>
                     <h4 className="project__text">
                       Getting ticket to the big show
@@ -38,13 +38,13 @@ function Projects() {
               </div>
             </div>
             <div className="col__3">
-              <div className="project__box pointer relative">
-                <div className="project__box__img pointer relative">
+              <div className="project__box">
+                <div className="project__box__img">
                   <div className="project__img__box">
                     <img src={Project2} alt="" className="project__img" />
                   </div>
                   <div className="mask__effect"></div>
-                  <div className="project__meta absolute">
+                  <div className="project__meta">
                     <h5 className="project__text">Development</h5>
                     <h4 className="project__text">
                       Getting ticket to the big show
@@ -57,13 +57,13 @@ function Projects() {
               </div>
             </div>
             <div className="col__3">
-              <div className="project__box pointer relative">
-                <div className="project__box__img pointer relative">
+              <div className="project__box">
+                <div className="project__box__img">
                   <div className="project__img__box">
                     <img src={Project3} alt="" className="project__img" />
                   </div>
                   <div className="mask__effect"></div>
-                  <div className="project__meta absolute">
+                  <div className="project__meta">
                     <h5 className="project__text">Development</h5>
                     <h4 className="project__text">
                       Getting ticket to the big show
@@ -76,13 +76,13 @@ function Projects() {
               </div>
             </div>
             <div className="col__3">
-              <div className="project__box pointer relative">
-                <div className="project__box__img pointer relative">
+              <div className="project__box">
+                <div className="project__box__img">
                   <div className="project__img__box">
                     <img src={Project4} alt="" className="project__img" />
                   </div>
                   <div className="mask__effect"></div>
-                  <div className="project__meta absolute">
+                  <div className="project__meta">
                     <h5 className="project__text">Development</h5>
                     <h4 className="project__text">
                       Getting ticket to the big show
@@ -95,13 +95,13 @@ function Projects() {
               </div>
             </div>
             <div className="col__3">
-              <div className="project__box pointer relative">
-                <div className="project__box__img pointer relative">
+              <div className="project__box">
+                <div className="project__box__img">
                   <div className="project__img__box">
                     <img src={Project3} alt="" className="project__img" />
                   </div>
                   <div className="mask__effect"></div>
-                  <div className="project__meta absolute">
+                  <div className="project__meta">
                     <h5 className="project__text">Development</h5>
                     <h4 className="project__text">
                       Getting ticket to the big show
@@ -114,13 +114,13 @@ function Projects() {
               </div>
             </div>
             <div className="col__3">
-              <div className="project__box pointer relative">
-                <div className="project__box__img pointer relative">
+              <div className="project__box">
+                <div className="project__box__img">
                   <div className="project__img__box">
                     <img src={Project4} alt="" className="project__img" />
                   </div>
                   <div className="mask__effect"></div>
-                  <div className="project__meta absolute">
+                  <div className="project__meta">
                     <h5 className="project__text">Development</h5>
                     <h4 className="project__text">
                       Getting ticket to the big show
@@ -132,8 +132,8 @@ function Projects() {
                 </div>
               </div>
             </div>
-            <div className="view__more__btn d__flex align__items__center justify__content__center pxy__30">
-              <button className="view__more pointer btn">View more</button>
+            <div className="view__more__btn">
+              <button className="view__more btn">View more</button>
             </div>
           </div>
         </div>

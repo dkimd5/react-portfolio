@@ -2,6 +2,11 @@
     background-color: #191919;
 }
 
+.project__box, .project__box__img {
+    position: relative;
+    cursor: pointer;
+}
+
 img.project__img {
     border-radius: 10px;
     width: 100%;
@@ -42,7 +47,8 @@ img.project__img::after {
     transform: scale(1.1);
 }
 
-.project__meta.absolute {
+.project__meta {
+    position: absolute;
     top: 0%;
     left: 0%;
     display: flex;
@@ -91,6 +97,17 @@ button.btn {
     text-transform: uppercase;
     letter-spacing: 2px;
     transition: .4s all ease;
+}
+
+.view__more__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.view__more {
+    cursor: pointer;
 }
 
 button.view__more:hover{
