@@ -16,7 +16,9 @@ function Navbar() {
     <div className="navbar">
       <div className="navbar__container section__container">
         <div className="logo">
-          <img src={logo} alt="logo" />
+          <a href="#">
+            <img src={logo} alt="logo" />
+          </a>
         </div>
         <div className="navigation">
           <ul className="navbar__list">
@@ -62,22 +64,22 @@ function Navbar() {
           <div className="sideNavbar">
             <ul className="sideNavbar__list">
               <li className="sideNavbar__item">
-                <a href="#home">Home</a>
+                <a href="#Home">Home</a>
               </li>
               <li className="sideNavbar__item">
-                <a href="#about">About</a>
+                <a href="#About">About</a>
               </li>
               <li className="sideNavbar__item">
-                <a href="#services">Services</a>
+                <a href="#Services">Services</a>
               </li>
               <li className="sideNavbar__item">
-                <a href="#projects">Projects</a>
+                <a href="#Projects">Projects</a>
               </li>
               <li className="sideNavbar__item">
-                <a href="#blog">Blog</a>
+                <a href="#Blog">Blog</a>
               </li>
               <li className="sideNavbar__item">
-                <a href="#contact">Contact</a>
+                <a href="#Contact">Contact</a>
               </li>
             </ul>
           </div>
