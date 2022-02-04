@@ -6,9 +6,11 @@ function Home() {
     <div className="home" id="Home">
       <div className="section__container">
         <div className="header__wrapper">
-          <h1 className="home__text pz__10">WELCOME TO MY PAGE</h1>
-          <h2 className="home__text pz__10">Hi, I'm Dmitrii Kim</h2>
-          <h3 className="home__text sweet">Front-end Developer</h3>
+          <h1 className="home__header">
+            WELCOME TO MY PAGE
+            <span className="home__text2">Hi, I'm Dmitrii Kim</span>
+            <span className="home__text3 sweet">Front-end Developer</span>
+          </h1>
         </div>
       </div>
     </div>
