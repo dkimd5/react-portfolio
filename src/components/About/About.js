@@ -12,11 +12,11 @@ function About() {
   return (
     <div className="about component__space" id="About">
       <div className="section__container">
-        <div className="row">
-          <div className="col__2">
+        <div className="about__wrapper">
+          <div className="about__img__wrapper">
             <img src={aboutImg} alt="" className="about__img" />
           </div>
-          <div className="col__2">
+          <div className="about__text__wrapper">
             <h1 className="about__heading">About Me</h1>
             <div className="about__meta">
               <p className="about__text p__color">
@@ -38,11 +38,8 @@ function About() {
                 Doloribus iusto magnam fuga corrupti fugiat voluptatum aliquam
               </p>
               <div className="about__button d__flex align__items_center">
-                <a href="#">
-                  <button className="about btn pointer">Download Cv</button>
-                </a>
-                <a href="#">
-                  <button className="about btn pointer">Hire Me</button>
+                <a href="#Contact">
+                  <button className="about btn pointer">Get In Touch!</button>
                 </a>
               </div>
             </div>
