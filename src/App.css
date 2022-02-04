@@ -12,7 +12,8 @@ body{
 }
 
 .section__container {
-  max-width: 1400px;
+  max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -70,11 +71,6 @@ p{
 
 .pxy__30{
   padding: 30px;
-}
-
-.container{
-  width: 92%;
-  margin: 0px auto;
 }
 
 .pz__10{

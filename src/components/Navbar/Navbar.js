@@ -14,34 +14,36 @@ function Navbar() {
 
   return (
     <div className="navbar">
-      <div className="navbar__container section__container">
-        <div className="logo">
-          <a href="#">
-            <img src={logo} alt="logo" />
-          </a>
-        </div>
-        <div className="navigation">
-          <ul className="navbar__list">
-            <li className="nav__items">
-              <a href="#Home">Home</a>
-            </li>
-            <li className="nav__items">
-              <a href="#About">About</a>
-            </li>
-            <li className="nav__items">
-              <a href="#Services">Services</a>
-            </li>
-            <li className="nav__items">
-              {" "}
-              <a href="#Projects">Projects</a>
-            </li>
-            <li className="nav__items">
-              <a href="#Blog">Blog</a>
-            </li>
-            <li className="nav__items">
-              <a href="#Contact">Contact</a>
-            </li>
-          </ul>
+      <div className="section__container">
+        <div className="navbar__container">
+          <div className="logo">
+            <a href="#">
+              <img src={logo} alt="logo" />
+            </a>
+          </div>
+          <div className="navigation">
+            <ul className="navbar__list">
+              <li className="nav__items">
+                <a href="#Home">Home</a>
+              </li>
+              <li className="nav__items">
+                <a href="#About">About</a>
+              </li>
+              <li className="nav__items">
+                <a href="#Services">Services</a>
+              </li>
+              <li className="nav__items">
+                {" "}
+                <a href="#Projects">Projects</a>
+              </li>
+              <li className="nav__items">
+                <a href="#Blog">Blog</a>
+              </li>
+              <li className="nav__items">
+                <a href="#Contact">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
         {/* Toggle menu */}
         <div className="toggle__menu">
