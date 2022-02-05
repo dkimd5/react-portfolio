@@ -1,12 +1,13 @@
 import React from "react";
-import "./Service.css";
+import "./Certificates.css";
+import certificateReact from "../../images/CertificateReact.png";
 
-function Service() {
+function Certificates() {
   return (
-    <div className="service component__space" id="Services">
+    <div className="certificates component__space" id="Certificates">
       <div className="section__container">
         <div className="heading">
-          <h1 className="heading">My Awesome Service</h1>
+          <h1 className="heading">My Certificates</h1>
           <p className="heading p__color">
             There are many variations of passages of Lorem Ipsum available
           </p>
@@ -16,11 +17,16 @@ function Service() {
         </div>
         <div className="row">
           <div className="col__3">
-            <div className="service__box pointer">
+            <a href="https://gb.ru/certificates/1261795.en">
+              <img className="certificate__img" src={certificateReact} alt="" />
+            </a>
+          </div>
+          <div className="col__3">
+            <div className="certificates__box pointer">
               <div className="icon"></div>
-              <div className="service__meta">
-                <h1 className="service__text">Lorem, ipsum.</h1>
-                <p className="p service__text p__color">
+              <div className="certificates__meta">
+                <h1 className="certificates__text">Lorem, ipsum.</h1>
+                <p className="p certificates__text p__color">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Numquam ipsum similique aspernatur, blanditiis incidunt sint
                   dolorem eligendi quia.
@@ -29,11 +35,11 @@ function Service() {
             </div>
           </div>
           <div className="col__3">
-            <div className="service__box pointer">
+            <div className="certificates__box pointer">
               <div className="icon"></div>
-              <div className="service__meta">
-                <h1 className="service__text">Lorem, ipsum.</h1>
-                <p className="p service__text p__color">
+              <div className="certificates__meta">
+                <h1 className="certificates__text">Lorem, ipsum.</h1>
+                <p className="p certificates__text p__color">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Numquam ipsum similique aspernatur, blanditiis incidunt sint
                   dolorem eligendi quia.
@@ -42,11 +48,11 @@ function Service() {
             </div>
           </div>
           <div className="col__3">
-            <div className="service__box pointer">
+            <div className="certificates__box pointer">
               <div className="icon"></div>
-              <div className="service__meta">
-                <h1 className="service__text">Lorem, ipsum.</h1>
-                <p className="p service__text p__color">
+              <div className="certificates__meta">
+                <h1 className="certificates__text">Lorem, ipsum.</h1>
+                <p className="p certificates__text p__color">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Numquam ipsum similique aspernatur, blanditiis incidunt sint
                   dolorem eligendi quia.
@@ -55,11 +61,11 @@ function Service() {
             </div>
           </div>
           <div className="col__3">
-            <div className="service__box pointer">
+            <div className="certificates__box pointer">
               <div className="icon"></div>
-              <div className="service__meta">
-                <h1 className="service__text">Lorem, ipsum.</h1>
-                <p className="p service__text p__color">
+              <div className="certificates__meta">
+                <h1 className="certificates__text">Lorem, ipsum.</h1>
+                <p className="p certificates__text p__color">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Numquam ipsum similique aspernatur, blanditiis incidunt sint
                   dolorem eligendi quia.
@@ -68,24 +74,11 @@ function Service() {
             </div>
           </div>
           <div className="col__3">
-            <div className="service__box pointer">
+            <div className="certificates__box pointer">
               <div className="icon"></div>
-              <div className="service__meta">
-                <h1 className="service__text">Lorem, ipsum.</h1>
-                <p className="p service__text p__color">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Numquam ipsum similique aspernatur, blanditiis incidunt sint
-                  dolorem eligendi quia.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col__3">
-            <div className="service__box pointer">
-              <div className="icon"></div>
-              <div className="service__meta">
-                <h1 className="service__text">Lorem, ipsum.</h1>
-                <p className="p service__text p__color">
+              <div className="certificates__meta">
+                <h1 className="certificates__text">Lorem, ipsum.</h1>
+                <p className="p certificates__text p__color">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Numquam ipsum similique aspernatur, blanditiis incidunt sint
                   dolorem eligendi quia.
@@ -99,4 +92,4 @@ function Service() {
   );
 }
 
-export default Service;
+export default Certificates;

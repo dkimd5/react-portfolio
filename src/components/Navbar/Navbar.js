@@ -30,14 +30,13 @@ function Navbar() {
                 <a href="#About">About</a>
               </li>
               <li className="nav__items">
-                <a href="#Services">Services</a>
+                <a href="#Certificates">Certificates</a>
               </li>
               <li className="nav__items">
-                {" "}
                 <a href="#Projects">Projects</a>
               </li>
               <li className="nav__items">
-                <a href="#Blog">Blog</a>
+                <a href="#Skills">Skills</a>
               </li>
               <li className="nav__items">
                 <a href="#Contact">Contact</a>
@@ -72,13 +71,13 @@ function Navbar() {
                 <a href="#About">About</a>
               </li>
               <li className="sideNavbar__item">
-                <a href="#Services">Services</a>
+                <a href="#Certificates">Certificates</a>
               </li>
               <li className="sideNavbar__item">
                 <a href="#Projects">Projects</a>
               </li>
               <li className="sideNavbar__item">
-                <a href="#Blog">Blog</a>
+                <a href="#Skills">Skills</a>
               </li>
               <li className="sideNavbar__item">
                 <a href="#Contact">Contact</a>

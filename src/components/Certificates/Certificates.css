@@ -12,29 +12,40 @@ p.heading.p__color {
     line-height: 1.2;
 }
 
-.service__box {
+.certificates__box {
     border-radius: 10px;
     width: 100%;
     background-color: #191919;
     padding: 55px;
     transition: .4s ease;
+    box-sizing: border-box;
 }
 
-.service__box:hover {
+.certificates__box:hover {
     transform: translateY(5px);
     background-image: linear-gradient(90deg, #f61b10, #ef0963);
 }
 
-p.service__text.p__color {
+/* div.col__3 {
+    width: ;
+} */
+
+.certificate__img {
+    display: block;
+width: 100%;
+object-fit: cover;
+}
+
+p.certificates__text.p__color {
     margin-bottom: 0;
 }
 
-.service__box:hover p.service__text.p__color {
+.certificates__box:hover p.certificates__text.p__color {
     color: #fff!important;
 }
 
 @media only screen and (max-width: 1024px) {
-    .service__box {
+    .certificates__box {
         padding: 32px;
     }
 }
