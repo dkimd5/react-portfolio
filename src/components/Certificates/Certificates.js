@@ -49,76 +49,13 @@ function Certificates() {
           </p>
         </div>
         <div className="row">
-          <div className="col__3">
-            <a href="https://gb.ru/certificates/1261795.en">
-              <img className="certificate__img" src={certificateReact} alt="" />
-            </a>
-          </div>
-          <div className="col__3">
-            <div className="certificates__box pointer">
-              <div className="icon"></div>
-              <div className="certificates__meta">
-                <h1 className="certificates__text">Lorem, ipsum.</h1>
-                <p className="p certificates__text p__color">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Numquam ipsum similique aspernatur, blanditiis incidunt sint
-                  dolorem eligendi quia.
-                </p>
-              </div>
+          {certificatesList.map(({ name, link, image }) => (
+            <div className="col__3">
+              <a href={link}>
+                <img className="certificate__img" src={image} alt="" />
+              </a>
             </div>
-          </div>
-          <div className="col__3">
-            <div className="certificates__box pointer">
-              <div className="icon"></div>
-              <div className="certificates__meta">
-                <h1 className="certificates__text">Lorem, ipsum.</h1>
-                <p className="p certificates__text p__color">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Numquam ipsum similique aspernatur, blanditiis incidunt sint
-                  dolorem eligendi quia.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col__3">
-            <div className="certificates__box pointer">
-              <div className="icon"></div>
-              <div className="certificates__meta">
-                <h1 className="certificates__text">Lorem, ipsum.</h1>
-                <p className="p certificates__text p__color">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Numquam ipsum similique aspernatur, blanditiis incidunt sint
-                  dolorem eligendi quia.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col__3">
-            <div className="certificates__box pointer">
-              <div className="icon"></div>
-              <div className="certificates__meta">
-                <h1 className="certificates__text">Lorem, ipsum.</h1>
-                <p className="p certificates__text p__color">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Numquam ipsum similique aspernatur, blanditiis incidunt sint
-                  dolorem eligendi quia.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col__3">
-            <div className="certificates__box pointer">
-              <div className="icon"></div>
-              <div className="certificates__meta">
-                <h1 className="certificates__text">Lorem, ipsum.</h1>
-                <p className="p certificates__text p__color">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Numquam ipsum similique aspernatur, blanditiis incidunt sint
-                  dolorem eligendi quia.
-                </p>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </div>
