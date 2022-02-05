@@ -2,6 +2,39 @@ import React from "react";
 import "./Certificates.css";
 import certificateReact from "../../images/CertificateReact.png";
 
+const certificatesList = [
+  {
+    name: "React",
+    link: "https://gb.ru/certificates/1261795.en",
+    image: certificateReact,
+  },
+  {
+    name: "React",
+    link: "https://gb.ru/certificates/1261795.en",
+    image: certificateReact,
+  },
+  {
+    name: "React",
+    link: "https://gb.ru/certificates/1261795.en",
+    image: certificateReact,
+  },
+  {
+    name: "React",
+    link: "https://gb.ru/certificates/1261795.en",
+    image: certificateReact,
+  },
+  {
+    name: "React",
+    link: "https://gb.ru/certificates/1261795.en",
+    image: certificateReact,
+  },
+  {
+    name: "React",
+    link: "https://gb.ru/certificates/1261795.en",
+    image: certificateReact,
+  },
+];
+
 function Certificates() {
   return (
     <div className="certificates component__space" id="Certificates">
