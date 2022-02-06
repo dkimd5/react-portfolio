@@ -30,10 +30,10 @@ function Navbar() {
                 <a href="#About">About</a>
               </li>
               <li className="nav__items">
-                <a href="#Certificates">Certificates</a>
+                <a href="#Projects">Projects</a>
               </li>
               <li className="nav__items">
-                <a href="#Projects">Projects</a>
+                <a href="#Certificates">Certificates</a>
               </li>
               <li className="nav__items">
                 <a href="#Skills">Skills</a>
