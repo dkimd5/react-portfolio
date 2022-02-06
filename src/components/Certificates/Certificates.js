@@ -56,7 +56,7 @@ function Certificates() {
         <div className="row">
           {certificatesList.map(({ name, link, image }) => (
             <div className="col__3">
-              <a href={link}>
+              <a href={link} target="_blank">
                 <img className="certificate__img" src={image} alt="" />
               </a>
             </div>
