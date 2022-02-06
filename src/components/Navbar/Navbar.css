@@ -1,4 +1,6 @@
 .navbar {
+    position: fixed;
+    width: 100%;
     background-color: #191919;
     transition: .4s all ease;
 }
@@ -33,7 +35,6 @@
 }
 
 .navbar.active {
-    position: fixed;
     z-index: 1000;
     background-color: #23242c;
     width: 100%;
