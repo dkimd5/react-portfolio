@@ -5,6 +5,45 @@ import Project2 from "../../images/portfolio-2.jpg";
 import Project3 from "../../images/portfolio-3.jpg";
 import Project4 from "../../images/portfolio-4.jpg";
 
+const projectsList = [
+  {
+    name: "Waxom",
+    deployLink: "",
+    githubLink: "",
+    image: Project1,
+  },
+  {
+    name: "",
+    deployLink: "",
+    githubLink: "",
+    image: Project2,
+  },
+  {
+    name: "",
+    deployLink: "",
+    githubLink: "",
+    image: Project3,
+  },
+  {
+    name: "",
+    deployLink: "",
+    githubLink: "",
+    image: Project4,
+  },
+  {
+    name: "",
+    deployLink: "",
+    githubLink: "",
+    image: Project3,
+  },
+  {
+    name: "",
+    deployLink: "",
+    githubLink: "",
+    image: Project4,
+  },
+];
+
 function Projects() {
   return (
     <div className="project component__space" id="Projects">
@@ -131,9 +170,9 @@ function Projects() {
               </div>
             </div>
           </div>
-          <div className="view__more__btn">
+          {/* <div className="view__more__btn">
             <button className="view__more btn">View more</button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
