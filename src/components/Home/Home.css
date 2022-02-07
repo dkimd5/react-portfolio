@@ -1,0 +1,51 @@
+.home {
+    height: 100vh;
+    background-image: url(../../images/home__bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__wrapper {
+    position: absolute;
+    top: 40%;
+}
+
+.home__header {
+    font-size: 4rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-family: "Mada", sans-serif;
+    color: rgba(198, 201, 216, .75)!important;
+}
+
+.home__text2, .home__text3 {
+    font-size: 6rem;
+    font-weight: 700;
+    font-family: "Mada", sans-serif;
+    line-height: 6rem;
+}
+
+.home__text2 {
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 768px){
+   h2.pz__10 {
+       font-size: 50px!important;
+   }
+}
+
+@media only screen and (max-width: 425px){
+    h2.home__text{
+        font-size: 32px;
+    }
+
+    h3.home__text {
+        font-size: 40px;
+    }
+
+    h1.home__text {
+        font-size: 14px;
+    }
+}

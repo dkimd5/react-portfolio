@@ -1,0 +1,51 @@
+.certificates {
+    background-color: #191919;
+}
+
+h1.heading {
+    font-size: 60px;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+p.heading.p__color {
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.certificates__box {
+    border-radius: 10px;
+    width: 100%;
+    background-color: #191919;
+    padding: 55px;
+    transition: .4s ease;
+    box-sizing: border-box;
+}
+
+.certificates__box:hover {
+    transform: translateY(5px);
+    background-image: linear-gradient(90deg, #f61b10, #ef0963);
+}
+
+.certificate__img {
+    display: block;
+width: 100%;
+object-fit: cover;
+}
+
+p.certificates__text.p__color {
+    margin-bottom: 0;
+}
+
+.certificates__box:hover p.certificates__text.p__color {
+    color: #fff!important;
+}
+
+@media only screen and (max-width: 1024px) {
+    .certificates__box {
+        padding: 32px;
+    }
+}
