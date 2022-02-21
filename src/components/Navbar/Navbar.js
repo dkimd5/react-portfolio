@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import logo from "../../images/logo-haski.png";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 function Navbar() {
   return (
@@ -31,6 +32,9 @@ function Navbar() {
             <a href="#Contact">Contact</a>
           </li>
         </ul>
+        <div className="hamburger">
+          <FaBars />
+        </div>
       </div>
     </div>
   );
