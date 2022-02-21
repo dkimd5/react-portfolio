@@ -4,6 +4,9 @@ import logo from "../../images/logo-haski.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 function Navbar() {
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+
   return (
     <div className="header">
       <div className="section__container">
@@ -13,7 +16,7 @@ function Navbar() {
               <img src={logo} alt="logo" />
             </a>
           </div>
-          <ul className="nav-menu">
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav__items">
               <a href="#Home">Home</a>
             </li>
@@ -33,8 +36,12 @@ function Navbar() {
               <a href="#Contact">Contact</a>
             </li>
           </ul>
-          <div className="hamburger">
-            <FaBars size={20} className="hamburger-lines" />
+          <div className="hamburger" onClick={handleClick}>
+            {click ? (
+              <FaTimes size={20} className="hamburger-color" />
+            ) : (
+              <FaBars size={20} className="hamburger-color" />
+            )}
           </div>
         </div>
       </div>
