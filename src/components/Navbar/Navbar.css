@@ -23,7 +23,16 @@
 .nav-menu a {
     font-family: Poppins,sans-serif;
     font-size: 1.2rem;
-    
+}
+
+.nav-menu a:hover {
+    transition: .5s all ease;
+    color: #F9004D;
+}
+
+.logo:hover {
+    transition: .5s all ease;
+    filter: brightness(150%);
 }
 
 .hamburger {
