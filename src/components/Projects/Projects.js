@@ -46,7 +46,7 @@ const projectsList = [
 
 function Projects() {
   return (
-    <div className="project component__space" id="Projects">
+    <div className="projects component__space" id="Projects">
       <div className="section__container">
         <div className="heading">
           <h1 className="heading">My Latest Projects</h1>
@@ -54,7 +54,7 @@ function Projects() {
             A Selection of stuff I've built or took part
           </p>
         </div>
-        <div className="row">
+        {/* <div className="row">
           {projectsList.map(({ name, deployLink, githubLink, image }) => (
             <div className="col__3">
               <div className="project__box">
@@ -74,7 +74,7 @@ function Projects() {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );
