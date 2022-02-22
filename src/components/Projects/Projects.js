@@ -51,8 +51,7 @@ function Projects() {
         <div className="heading">
           <h1 className="heading">My Latest Projects</h1>
           <p className="heading p__color">
-            There are many variations of passages of Lorem Ipsum available but
-            the majority have suffered alteration.
+            A Selection of stuff I've built or took part
           </p>
         </div>
         <div className="row">
@@ -75,9 +74,6 @@ function Projects() {
               </div>
             </div>
           ))}
-          {/* <div className="view__more__btn">
-            <button className="view__more btn">View more</button>
-          </div> */}
         </div>
       </div>
     </div>
