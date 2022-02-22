@@ -1,12 +1,14 @@
 import React from "react";
+import ProjectCard from "./ProjectCard/ProjectCard";
 import "./Projects.css";
+import waxomImg from "../../images/waxom-image.png";
 
 const projectList = [
   {
     name: "Waxom",
     deployLink: "",
     githubLink: "",
-    image: "",
+    image: waxomImg,
   },
   {
     name: "Messenger",
@@ -37,6 +39,11 @@ function Projects() {
           <p className="heading p__color">
             A Selection of stuff I've built or took part
           </p>
+        </div>
+        <div className="projects__wrapper">
+          {projectList.map((project) => (
+            <ProjectCard project={project} />
+          ))}
         </div>
         {/* <div className="row">
           {projectsList.map(({ name, deployLink, githubLink, image }) => (
