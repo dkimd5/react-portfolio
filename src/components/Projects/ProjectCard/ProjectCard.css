@@ -1,13 +1,13 @@
-.container__img{
-    width: 30%;
-    height: 40vh;
+.project__container__img{
+    aspect-ratio: 4/2.1;
+    width: 45%;
     margin: 20px 10px;
     border: 2px solid rgb(243, 242, 242);
     border-radius: 10px 10px 0px 0px;
     overflow: hidden;
 }
 
-.project-browser{
+.project__browser{
     height: 20px;
     background-color: rgb(243, 242, 242);
     display: flex;
@@ -16,7 +16,7 @@
     z-index: 2;
 }
 
-.project-circle{
+.project__circle{
     width: 6px;
     height: 6px;
     border-radius: 50%;
@@ -24,11 +24,11 @@
     margin: 3px;
 }
 
-.project-img{
+.project__img{
     width: 100%;
     transition: all 10s ease-in-out;
 }
 
-.container__img:hover .project-img{
+.project__container__img:hover .project__img{
     transform: translateY(-80%);
 }

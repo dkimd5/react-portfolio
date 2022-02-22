@@ -42,7 +42,7 @@ function Projects() {
         </div>
         <div className="projects__wrapper">
           {projectList.map((project) => (
-            <ProjectCard project={project} />
+            <ProjectCard key={project.name} project={project} />
           ))}
         </div>
         {/* <div className="row">
