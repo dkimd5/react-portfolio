@@ -1,46 +1,30 @@
 import React from "react";
 import "./Projects.css";
-import Project1 from "../../images/portfolio-1.jpg";
-import Project2 from "../../images/portfolio-2.jpg";
-import Project3 from "../../images/portfolio-3.jpg";
-import Project4 from "../../images/portfolio-4.jpg";
 
-const projectsList = [
+const projectList = [
   {
     name: "Waxom",
     deployLink: "",
     githubLink: "",
-    image: Project1,
+    image: "",
   },
   {
-    name: "",
+    name: "Messenger",
     deployLink: "",
     githubLink: "",
-    image: Project2,
+    image: "",
   },
   {
-    name: "",
+    name: "CookBook",
     deployLink: "",
     githubLink: "",
-    image: Project3,
+    image: "",
   },
   {
-    name: "",
+    name: "Firegram",
     deployLink: "",
     githubLink: "",
-    image: Project4,
-  },
-  {
-    name: "",
-    deployLink: "",
-    githubLink: "",
-    image: Project3,
-  },
-  {
-    name: "",
-    deployLink: "",
-    githubLink: "",
-    image: Project4,
+    image: "",
   },
 ];
 
