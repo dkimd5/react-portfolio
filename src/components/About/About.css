@@ -18,12 +18,22 @@
     width: 50%;
 }
 
-h1.about__heading {
+.about__heading {
     margin-bottom: 10px;
     font-weight: 700;
     text-align: start;
     font-family: Montserrat, sans-serif;
     font-size: 60px;
+}
+
+.about__text__wrapper span, .about__text__wrapper a {
+    font-weight: 500;
+    display: inline;
+    color:#F9004D
+}
+
+.about__text__wrapper a:hover {
+    color: #fff;
 }
 
 button.about.btn.pointer {

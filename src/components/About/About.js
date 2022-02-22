@@ -18,30 +18,29 @@ function About() {
           </div>
           <div className="about__text__wrapper">
             <h1 className="about__heading">About Me</h1>
-            <div className="about__meta">
-              <p className="about__text p__color">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Doloribus iusto magnam fuga corrupti fugiat voluptatum aliquam
-                aut facere cum repellat quis reiciendis sunt deserunt architecto
-                itaque, expedita consectetur at quidem repellendus minima.
-                Minima magnam quia nisi dolores, rem aperiam quas consectetur!
-              </p>
-              <p className="about__text p__color">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Doloribus iusto magnam fuga corrupti fugiat voluptatum aliquam
-                aut facere cum repellat quis reiciendis sunt deserunt architecto
-                itaque, expedita consectetur at quidem repellendus minima.
-                Minima magnam quia nisi dolores, rem aperiam quas consectetur!
-              </p>
-              <p className="about__text p__color">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Doloribus iusto magnam fuga corrupti fugiat voluptatum aliquam
-              </p>
-              <div className="about__button d__flex align__items_center">
-                <a href="#Contact">
-                  <button className="about btn pointer">Get In Touch!</button>
-                </a>
-              </div>
+            <p className="about__text p__color">
+              I started my way at programming with <span>C++ & Java</span>, and
+              after after some time I decided to switch to
+              <span> Front-end development</span>. I'm enjoy bringing technical
+              and visual aspects of digital products to life.
+            </p>
+            <p className="about__text p__color">
+              I studied Front-end at
+              <a href="https://gb.ru/"> GeekBrains school</a>, you can see some
+              of my <a href="#Certificates">certificates below</a>, and I'm
+              searching for new knowledge on my own reading materials, watching
+              videos, solving tasks at
+              <a href="https://www.codewars.com/dashboard"> Codewars</a> and
+              etc.
+            </p>
+            <p className="about__text p__color">
+              I'm happy to create, learn and explore new things. Currently
+              improving and sharping my skills. Feel free to contact me!
+            </p>
+            <div className="about__button d__flex align__items_center">
+              <a href="#Contact">
+                <button className="about btn pointer">Get In Touch!</button>
+              </a>
             </div>
           </div>
         </div>
