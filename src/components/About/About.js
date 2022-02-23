@@ -31,11 +31,9 @@ function About() {
                 GeekBrains school
               </a>
               , you can see some of my{" "}
-              <a href="#Certificates" target="_blank">
-                certificates below
-              </a>
-              , and I'm searching for new knowledge on my own reading materials,
-              watching videos, solving tasks at
+              <a href="#Certificates">certificates below</a>, and I'm searching
+              for new knowledge on my own reading materials, watching videos,
+              solving tasks at
               <a href="https://www.codewars.com/dashboard" target="_blank">
                 {" "}
                 Codewars
