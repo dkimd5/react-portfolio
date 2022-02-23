@@ -11,12 +11,16 @@ const projectList = [
     deployLink: "",
     githubLink: "",
     image: waxomImg,
+    description:
+      "One of my first work, made only with HTMl and CSS. Check out slider at the top)",
   },
   {
     name: "Messenger",
     deployLink: "",
     githubLink: "",
     image: messengerImg,
+    description:
+      "This app was my first time I touched React, I decided to make a little messenger, it's not a lot of functionality, but I am still working on it. ",
   },
   // {
   //   name: "CookBook",
@@ -29,6 +33,8 @@ const projectList = [
     deployLink: "",
     githubLink: "",
     image: firegramImg,
+    description:
+      "Upload and enjoy your favourite arts, photos and images to this art gallery. Made with ReactJS and Firebase, also added infinite scroll function for you comfort",
   },
 ];
 

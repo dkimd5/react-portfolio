@@ -1,13 +1,16 @@
-.project__container__img{
+.project__card {
+    display: flex;
+}
+
+.project__container__img {
     aspect-ratio: 4/2.1;
     width: 45%;
-    margin: 20px 10px;
     border: 2px solid rgb(243, 242, 242);
     border-radius: 10px 10px 0px 0px;
     overflow: hidden;
 }
 
-.project__browser{
+.project__browser {
     height: 20px;
     background-color: #8d99ae;
     display: flex;
@@ -16,7 +19,7 @@
     z-index: 2;
 }
 
-.project__circle{
+.project__circle {
     width: 6px;
     height: 6px;
     border-radius: 50%;
@@ -35,11 +38,24 @@
     background-color: #70e000;
 }
 
-.project__img{
+.project__img {
     width: 100%;
     transition: all 10s ease-in-out;
 }
 
-.project__container__img:hover .project__img{
+.project__container__img:hover .project__img {
     transform: translateY(-80%);
+}
+
+.project__container__text {
+    width: 55%;
+}
+
+.project__container__text h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.project__container__text p {
+    /* color: #fff; */
 }
