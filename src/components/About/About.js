@@ -26,7 +26,7 @@ function About() {
             </p>
             <p className="about__text p__color">
               I studied Front-end at
-              <a href="https://gb.ru/" target="_blank">
+              <a href="https://gb.ru/" target="_blank" rel="noreferrer">
                 {" "}
                 GeekBrains school
               </a>
@@ -34,7 +34,11 @@ function About() {
               <a href="#Certificates">certificates below</a>, and I'm searching
               for new knowledge on my own reading materials, watching videos,
               solving tasks at
-              <a href="https://www.codewars.com/dashboard" target="_blank">
+              <a
+                href="https://www.codewars.com/dashboard"
+                target="_blank"
+                rel="noreferrer"
+              >
                 {" "}
                 Codewars
               </a>{" "}
