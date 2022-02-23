@@ -1,7 +1,9 @@
 import React from "react";
 import ProjectCard from "./ProjectCard/ProjectCard";
 import "./Projects.css";
-import waxomImg from "../../images/waxom-image.png";
+import waxomImg from "../../images/project-waxom-img.png";
+import messengerImg from "../../images/project-messenger-img.png";
+import firegramImg from "../../images/project-firegram-img.png";
 
 const projectList = [
   {
@@ -14,19 +16,19 @@ const projectList = [
     name: "Messenger",
     deployLink: "",
     githubLink: "",
-    image: "",
+    image: messengerImg,
   },
-  {
-    name: "CookBook",
-    deployLink: "",
-    githubLink: "",
-    image: "",
-  },
+  // {
+  //   name: "CookBook",
+  //   deployLink: "",
+  //   githubLink: "",
+  //   image: "",
+  // },
   {
     name: "Firegram",
     deployLink: "",
     githubLink: "",
-    image: "",
+    image: firegramImg,
   },
 ];
 
