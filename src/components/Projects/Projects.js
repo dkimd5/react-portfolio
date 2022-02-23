@@ -1,9 +1,9 @@
 import React from "react";
 import ProjectCard from "./ProjectCard/ProjectCard";
 import "./Projects.css";
-import waxomImg from "../../images/project-waxom-img.png";
-import messengerImg from "../../images/project-messenger-img.png";
-import firegramImg from "../../images/project-firegram-img.png";
+import waxomImg from "../../images/project-waxom-img.jpg";
+import messengerImg from "../../images/project-messenger-img.jpg";
+import firegramImg from "../../images/project-firegram-img.jpg";
 
 const projectList = [
   {
@@ -34,7 +34,7 @@ const projectList = [
     githubLink: "",
     image: firegramImg,
     description:
-      "Upload and enjoy your favourite arts, photos and images to this art gallery. Made with ReactJS and Firebase, also added infinite scroll function for you comfort",
+      "Upload and enjoy your favourite arts, photos and images to this art gallery. Made with ReactJS and Firebase, also added infinite scroll function for your comfort",
   },
 ];
 
