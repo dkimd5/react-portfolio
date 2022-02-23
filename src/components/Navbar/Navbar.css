@@ -1,9 +1,14 @@
 .header {
     position: fixed;
     width: 100%;
-    background-color: #191919;
+    background-color: rgba(0, 0, 0, .85);
     transition: .4s all ease;
     z-index: 10;
+}
+
+.header-bg {
+    background-color:rgba(46, 46, 46, 0.9);
+    transition: .5s;
 }
 
 .header-wrp {
@@ -23,7 +28,16 @@
 .nav-menu a {
     font-family: Poppins,sans-serif;
     font-size: 1.2rem;
-    
+}
+
+.nav-menu a:hover {
+    transition: .5s all ease;
+    color: #F9004D;
+}
+
+.logo:hover {
+    transition: .5s all ease;
+    filter: brightness(150%);
 }
 
 .hamburger {

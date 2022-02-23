@@ -14,30 +14,41 @@ function About() {
       <div className="section__container">
         <div className="about__wrapper">
           <div className="about__img__wrapper">
-            <img src={aboutImg} alt="" className="about__img" />
+            <img src={aboutImg} alt="personal_photo" className="about__img" />
           </div>
           <div className="about__text__wrapper">
             <h1 className="about__heading">About Me</h1>
             <p className="about__text p__color">
-              I started my way at programming with <span>C++ & Java</span>, and
-              after after some time I decided to switch to
+              I started my way at programming with <span>C++ & Java</span> and
+              after some time I decided to switch to
               <span> Front-end development</span>. I'm enjoy bringing technical
               and visual aspects of digital products to life.
             </p>
             <p className="about__text p__color">
               I studied Front-end at
-              <a href="https://gb.ru/"> GeekBrains school</a>, you can see some
-              of my <a href="#Certificates">certificates below</a>, and I'm
-              searching for new knowledge on my own reading materials, watching
-              videos, solving tasks at
-              <a href="https://www.codewars.com/dashboard"> Codewars</a> and
-              etc.
+              <a href="https://gb.ru/" target="_blank" rel="noreferrer">
+                {" "}
+                GeekBrains school
+              </a>
+              , you can see some of my{" "}
+              <a href="#Certificates">certificates below</a>, and I'm searching
+              for new knowledge on my own reading materials, watching videos,
+              solving tasks at
+              <a
+                href="https://www.codewars.com/dashboard"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                Codewars
+              </a>{" "}
+              and etc.
             </p>
             <p className="about__text p__color">
               I'm happy to create, learn and explore new things. Currently
               improving and sharping my skills. Feel free to contact me!
             </p>
-            <div className="about__button d__flex align__items_center">
+            <div className="about__button align__items_center">
               <a href="#Contact">
                 <button className="about btn pointer">Get In Touch!</button>
               </a>
@@ -46,17 +57,17 @@ function About() {
         </div>
         {/* UP TO TOP BTN */}
         <div className="up__to__top__btn">
-          <a href="#" className="bottom__to__top">
+          <a href="##" className="bottom__to__top">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
               height="16"
               fill="currentColor"
-              class="bi bi-chevron-up white"
+              className="bi bi-chevron-up white"
               viewBox="0 0 16 16"
             >
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"
               />
             </svg>
