@@ -1,8 +1,9 @@
 import React from "react";
+import { icons } from "react-icons";
 import "./ProjectCard.css";
 
 function ProjectCard({ project }) {
-  const { name, deployLink, githubLink, image, description } = project;
+  const { name, deployLink, githubLink, image, description, icons } = project;
   return (
     <div className="project__card">
       <div className="project__container__img">
@@ -20,6 +21,13 @@ function ProjectCard({ project }) {
       <div className="project__container__text">
         <h2>{name}</h2>
         <p className="p__color">{description}</p>
+        <ul className="project__icons">
+          {icons.map((icon) => (
+            <li className="project__box__icon">
+              <i className={icon}></i>
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );

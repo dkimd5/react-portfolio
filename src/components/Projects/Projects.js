@@ -13,6 +13,11 @@ const projectList = [
     image: waxomImg,
     description:
       "One of my first work, made only with HTMl and CSS. Check out slider at the top)",
+    icons: [
+      "devicon devicon-html5-plain colored",
+      "devicon devicon-css3-plain colored",
+      "devicon devicon-less-plain-wordmark colored",
+    ],
   },
   {
     name: "Messenger",
@@ -21,6 +26,15 @@ const projectList = [
     image: messengerImg,
     description:
       "This app was my first time I touched React, I decided to make a little messenger, it's not a lot of functionality, but I am still working on it. ",
+    icons: [
+      "devicon devicon-html5-plain colored",
+      "devicon devicon-css3-plain colored",
+      "devicon devicon-sass-original colored",
+      "devicon devicon-webpack-plain colored",
+      "devicon devicon-react-original colored",
+      "devicon devicon-redux-original colored",
+      "devicon devicon-materialui-plain colored",
+    ],
   },
   // {
   //   name: "CookBook",
@@ -35,6 +49,12 @@ const projectList = [
     image: firegramImg,
     description:
       "Upload and enjoy your favourite arts, photos and images to this art gallery. Made with ReactJS and Firebase, also added infinite scroll function for your comfort",
+    icons: [
+      "devicon devicon-html5-plain colored",
+      "devicon devicon-css3-plain colored",
+      "devicon devicon-react-original colored",
+      "devicon devicon-firebase-plain colored",
+    ],
   },
 ];
 
