@@ -3,6 +3,10 @@
     justify-content: space-around;
 }
 
+.project__card:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
 .project__container__img {
     aspect-ratio: 4/2.1;
     width: 45%;
