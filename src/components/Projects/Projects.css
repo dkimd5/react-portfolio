@@ -1,0 +1,9 @@
+.projects__wrapper {
+    display:flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+div.heading {
+    margin-bottom: 50px;
+}
