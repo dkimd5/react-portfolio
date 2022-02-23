@@ -1,5 +1,4 @@
 import React from "react";
-import { icons } from "react-icons";
 import "./ProjectCard.css";
 
 function ProjectCard({ project }) {
