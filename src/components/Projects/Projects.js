@@ -8,8 +8,8 @@ import firegramImg from "../../images/project-firegram-img.jpg";
 const projectList = [
   {
     name: "Waxom",
-    deployLink: "",
-    githubLink: "",
+    deployLink: "https://dkimd5.github.io/Waxom/",
+    githubLink: "https://github.com/dkimd5/Waxom",
     image: waxomImg,
     description:
       "One of my first work, made only with HTMl and CSS. Check out slider at the top)",
@@ -21,8 +21,8 @@ const projectList = [
   },
   {
     name: "Messenger",
-    deployLink: "",
-    githubLink: "",
+    deployLink: "https://react-messenger-dkimd5.herokuapp.com/",
+    githubLink: "https://github.com/dkimd5/React-GB",
     image: messengerImg,
     description:
       "This app was my first time I touched React, I decided to make a little messenger, it's not a lot of functionality, but I am still working on it. ",
@@ -45,8 +45,8 @@ const projectList = [
   // },
   {
     name: "Firegram",
-    deployLink: "",
-    githubLink: "",
+    deployLink: "https://react-app-firegram.herokuapp.com/",
+    githubLink: "https://github.com/dkimd5/firegram",
     image: firegramImg,
     description:
       "Upload and enjoy your favourite arts, photos and images to this art gallery. Made with ReactJS and Firebase, also added infinite scroll function for your comfort",
