@@ -1,3 +1,14 @@
+.projects__wrapper {
+    display:flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+div.heading {
+    margin-bottom: 50px;
+}
+
+
 /* .project__box, .project__box__img {
     position: relative;
     cursor: pointer;
