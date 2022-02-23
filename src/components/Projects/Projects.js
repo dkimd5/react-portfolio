@@ -29,6 +29,7 @@ const projectList = [
     icons: [
       "devicon devicon-html5-plain colored",
       "devicon devicon-css3-plain colored",
+      "devicon devicon-javascript-plain colored",
       "devicon devicon-sass-original colored",
       "devicon devicon-webpack-plain colored",
       "devicon devicon-react-original colored",
@@ -52,6 +53,7 @@ const projectList = [
     icons: [
       "devicon devicon-html5-plain colored",
       "devicon devicon-css3-plain colored",
+      "devicon devicon-javascript-plain colored",
       "devicon devicon-react-original colored",
       "devicon devicon-firebase-plain colored",
     ],
