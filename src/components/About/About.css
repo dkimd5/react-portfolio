@@ -42,14 +42,6 @@
     color: #fff;
 }
 
-button.about.btn.pointer {
-    text-transform: capitalize;
-    width: 195px;
-    height: 55px;
-    font-size: 18px;
-    transition: .4s ease;
-}
-
 .about__button {
     padding: 20px 0px;
 }

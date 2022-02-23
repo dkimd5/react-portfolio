@@ -160,12 +160,15 @@ button.btn {
   border: 2px solid #f9004d;
   background-color: #f9004d;
   color: #fff!important;
-  text-transform: uppercase;
   letter-spacing: 2px;
   transition: .4s all ease;
-  height: 50px;
-  width: 180px;
   margin: 0px 10px;
+  padding: 15px 20px;
+}
+
+button.btn:hover{
+  background: #fff;
+  color: #000!important;
 }
 
 .p__color {
@@ -174,11 +177,6 @@ button.btn {
   line-height: 30px;
   font-family: Poppins,sans-serif;
   margin-bottom: 15px;
-}
-
-button.about.btn.pointer:hover {
-  background: #fff;
-  color: #000!important;
 }
 
 @media only screen and (max-width:1408px) {

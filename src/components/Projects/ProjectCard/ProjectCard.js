@@ -28,6 +28,10 @@ function ProjectCard({ project }) {
             </li>
           ))}
         </ul>
+        <div className="project__buttons">
+          <button className="btn pointer">View It Here</button>
+          <button className="btn pointer">View Github Repo</button>
+        </div>
       </div>
     </div>
   );
