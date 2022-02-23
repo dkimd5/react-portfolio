@@ -12,11 +12,7 @@ function ProjectCard({ project }) {
           <div className="project__circle"></div>
           <div className="project__circle"></div>
         </div>
-        <img
-          src={image}
-          alt="project page image"
-          className="project__img"
-        ></img>
+        <img src={image} alt="project page" className="project__img"></img>
       </div>
       <div className="project__container__text">
         <h2>{name}</h2>

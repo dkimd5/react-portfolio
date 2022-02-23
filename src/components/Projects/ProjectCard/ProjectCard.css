@@ -7,11 +7,20 @@
     flex-direction: row-reverse;
 }
 
+.project__card:first-child .project__img:hover {
+    transform: translateY(-87%);
+}
+
+.project__card:nth-child(3n) .project__img:hover {
+    transform: translateY(-69%);
+}
+
+
 .project__container__img {
     aspect-ratio: 4/2.1;
     width: 45%;
     border: 2px solid rgb(243, 242, 242);
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px;
     overflow: hidden;
 }
 
@@ -46,10 +55,6 @@
 .project__img {
     width: 100%;
     transition: all 10s ease-in-out;
-}
-
-.project__container__img:hover .project__img {
-    transform: translateY(-80%);
 }
 
 .project__container__text {
