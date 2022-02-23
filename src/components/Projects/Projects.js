@@ -75,27 +75,6 @@ function Projects() {
             <ProjectCard key={project.name} project={project} />
           ))}
         </div>
-        {/* <div className="row">
-          {projectsList.map(({ name, deployLink, githubLink, image }) => (
-            <div className="col__3">
-              <div className="project__box">
-                <div className="project__box__img">
-                  <div className="project__img__box">
-                    <img src={image} alt="" className="project__img" />
-                  </div>
-                  <div className="mask__effect"></div>
-                  <div className="project__meta">
-                    <h5 className="project__text">Development</h5>
-                    <h4 className="project__text">{name}</h4>
-                    <a href="#" className="project__btn">
-                      View Details
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div> */}
       </div>
     </div>
   );
