@@ -22,7 +22,7 @@
     border: 2px solid rgb(243, 242, 242);
     border-radius: 10px;
     overflow: hidden;
-    margin: auto;
+    margin: 0 auto auto;
 }
 
 .project__browser {
@@ -64,7 +64,6 @@
 
 .project__container__text h3 {
     color: #7689d8;
-    text-align: center;
     font-family: Poppins, sans-serif;
     font-weight: 500;
     margin-bottom: 25px;
@@ -122,14 +121,29 @@
     }
 
     .project__container__img {
-        width: 100%;
+        width: 80%;
     }
 
     .project__container__text {
-        width: 100%;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .project__container__text h3 {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .project__container__text p {
+        margin-bottom: 10px;
+    }
+
+    .project__icons {
+        justify-content: center;
     }
 
     .project__buttons {
         flex-direction: row;
+        justify-content: center;
     }
 }
