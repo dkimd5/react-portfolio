@@ -22,7 +22,7 @@
     border: 2px solid rgb(243, 242, 242);
     border-radius: 10px;
     overflow: hidden;
-    margin: 0 auto auto;
+    margin: 0 0 auto;
 }
 
 .project__browser {
@@ -122,6 +122,10 @@
 
     .project__card:nth-child(even) {
         flex-direction: column;
+    }
+
+    .project__container__img {
+        margin: 0 auto auto;
     }
 
     .project__container__img, .project__container__text {
