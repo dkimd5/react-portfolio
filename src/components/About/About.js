@@ -18,13 +18,13 @@ function About() {
           </div>
           <div className="about__text__wrapper">
             <h1 className="about__heading">About Me</h1>
-            <p className="about__text p__color">
+            <p className="p__text">
               I started my way at programming with <span>C++ & Java</span> and
               after some time I decided to switch to
               <span> Front-end development</span>. I'm enjoy bringing technical
               and visual aspects of digital products to life.
             </p>
-            <p className="about__text p__color">
+            <p className="p__text">
               I studied Front-end at
               <a href="https://gb.ru/" target="_blank" rel="noreferrer">
                 {" "}
@@ -44,7 +44,7 @@ function About() {
               </a>{" "}
               and etc.
             </p>
-            <p className="about__text p__color">
+            <p className="p__text">
               I'm happy to create, learn and explore new things. Currently
               improving and sharping my skills. Feel free to contact me!
             </p>
