@@ -7,3 +7,15 @@
     gap: 3rem;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+@media only screen and (max-width:1024px) {
+    .certificates__list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width:568px) {
+    .certificates__list {
+        grid-template-columns: 1fr;
+    }
+}
