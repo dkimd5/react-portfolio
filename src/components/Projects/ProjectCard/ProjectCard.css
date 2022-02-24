@@ -22,6 +22,7 @@
     border: 2px solid rgb(243, 242, 242);
     border-radius: 10px;
     overflow: hidden;
+    margin: auto;
 }
 
 .project__browser {
