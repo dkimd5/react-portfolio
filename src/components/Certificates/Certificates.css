@@ -37,6 +37,11 @@
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(117deg) brightness(103%) contrast(100%);
 } 
 
+.certificate__loupe_icon:hover,
+.certificate__link_icon:hover {
+    filter: invert(19%) sepia(100%) saturate(7157%) hue-rotate(336deg) brightness(95%) contrast(105%);
+}
+
 .certificate__loupe_icon {
     width: 40px;
     right: 30%;
