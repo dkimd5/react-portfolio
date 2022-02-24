@@ -12,8 +12,14 @@
     position: relative;
 }
 
-.certificates__item:hover {
-    position: relative;
+.certificates__item:hover > .certificate__img {
+    filter: blur(2px) brightness(50%);
+    transition: .4s;
+}
+
+.certificates__item:hover .certificate__link_icon,
+.certificates__item:hover .certificate__loupe_icon {
+    display: block;
 }
 
 .certificate__img {
@@ -23,6 +29,8 @@
 }
 
 .certificate__loupe_icon, .certificate__link_icon {
+    cursor: pointer;
+    display: none;
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
