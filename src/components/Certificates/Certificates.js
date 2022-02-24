@@ -44,13 +44,11 @@ function Certificates() {
   return (
     <div className="certificates component__space" id="Certificates">
       <div className="section__container">
-        <div className="heading">
-          <h1 className="heading">My Certificates</h1>
-          <h2 className="heading">
-            There are many variations of passages of Lorem Ipsum available but
-            the majority have suffered alteration.
-          </h2>
-        </div>
+        <h1 className="heading">My Certificates</h1>
+        <h2 className="heading">
+          There are many variations of passages of Lorem Ipsum available but the
+          majority have suffered alteration.
+        </h2>
         <div className="row">
           {certificatesList.map(({ name, link, image }) => (
             <div className="col__3">

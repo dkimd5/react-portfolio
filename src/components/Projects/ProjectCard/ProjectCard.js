@@ -14,7 +14,7 @@ function ProjectCard({ project }) {
         <img src={image} alt="project page" className="project__img"></img>
       </div>
       <div className="project__container__text">
-        <h2>{name}</h2>
+        <h3>{name}</h3>
         <p className="p__color">{description}</p>
         <ul className="project__icons">
           {icons.map((icon) => (

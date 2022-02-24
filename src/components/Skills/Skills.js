@@ -7,13 +7,11 @@ function Skills() {
   return (
     <div className="skills component__space" id="Skills">
       <div className="section__container">
-        <div className="heading">
-          <h1 className="heading">Skills & Tools</h1>
-          <h2 className="heading">
-            The skills, tools and technologies I use to bring your products to
-            life:
-          </h2>
-        </div>
+        <h1 className="heading">Skills & Tools</h1>
+        <h2 className="heading">
+          The skills, tools and technologies I use to bring your products to
+          life:
+        </h2>
         <ul className="box-container">
           <li className="box__icon">
             <i className="devicon devicon-html5-plain colored"></i>

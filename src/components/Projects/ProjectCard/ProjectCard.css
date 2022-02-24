@@ -62,12 +62,13 @@
     width: 45%;
 }
 
-.project__container__text h2 {
+.project__container__text h3 {
     color: #7689d8;
     text-align: center;
     font-family: Poppins, sans-serif;
     font-weight: 500;
     margin-bottom: 25px;
+    font-size: 28px;
 }
 
 .project__container__text p {
