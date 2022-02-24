@@ -9,10 +9,10 @@ function Skills() {
       <div className="section__container">
         <div className="heading">
           <h1 className="heading">Skills & Tools</h1>
-          <p className="heading p__color">
+          <h2 className="heading">
             The skills, tools and technologies I use to bring your products to
             life:
-          </p>
+          </h2>
         </div>
         <ul className="box-container">
           <li className="box__icon">

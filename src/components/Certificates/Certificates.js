@@ -46,12 +46,10 @@ function Certificates() {
       <div className="section__container">
         <div className="heading">
           <h1 className="heading">My Certificates</h1>
-          <p className="heading p__color">
-            There are many variations of passages of Lorem Ipsum available
-          </p>
-          <p className="heading p__color">
-            but the majority have suffered alteration.
-          </p>
+          <h2 className="heading">
+            There are many variations of passages of Lorem Ipsum available but
+            the majority have suffered alteration.
+          </h2>
         </div>
         <div className="row">
           {certificatesList.map(({ name, link, image }) => (

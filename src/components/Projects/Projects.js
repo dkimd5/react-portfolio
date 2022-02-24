@@ -66,9 +66,9 @@ function Projects() {
       <div className="section__container">
         <div className="heading">
           <h1 className="heading">My Latest Projects</h1>
-          <p className="heading p__color">
+          <h2 className="heading">
             A Selection of stuff I've built or took part
-          </p>
+          </h2>
         </div>
         <div className="projects__wrapper">
           {projectList.map((project) => (

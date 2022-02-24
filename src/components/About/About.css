@@ -73,6 +73,10 @@ a.bottom__to__top.active {
 }
 
 @media only screen and (max-width: 768px) {
+    .about__heading {
+        font-size: 50px;
+    }
+
     .about__wrapper {
         display: block;
     }

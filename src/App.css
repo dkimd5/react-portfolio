@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mada:wght@400;500;700&family=Poppins:wght@500;700&display=swap');
+
 *{
   padding: 0;
   margin: 0;
@@ -26,11 +28,13 @@ h1.heading {
   margin-bottom: 10px;
 }
 
-p.heading.p__color {
-  margin-bottom: 0;
+h2.heading {
+  font-size: 40px;
   text-align: center;
+  font-family: Poppins,sans-serif;
   line-height: 1.2;
   font-size: 1.4rem;
+  color: rgba(198,201,216,.75);
 }
 
 a{
@@ -185,7 +189,15 @@ button.btn:hover{
   }
 }
 
+/* @media only screen and (max-width:1024px) {
+  
+} */
+
 @media only screen and (max-width: 768px){
+  h1.heading {
+    font-size: 50px;
+  }
+
   .col__2 {
       max-width: 100%;
   }
