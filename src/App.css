@@ -147,9 +147,9 @@ h1 {
   cursor: pointer;
 }
 
-svg {
+/* svg {
   stroke-width: 1!important;
-}
+} */
 
 .relative{
   position: relative;

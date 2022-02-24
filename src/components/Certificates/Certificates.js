@@ -6,6 +6,8 @@ import certificateJS1 from "../../images/CertificateJS1.jpeg";
 import certificateJS2 from "../../images/CertificateJS2.jpeg";
 import certificateDB from "../../images/CertificateDatabase.jpeg";
 import certificateReact from "../../images/CertificateReact.jpeg";
+import loupeBtnIcon from "../../images/certificate-loupe.svg";
+import externalLinkBtnIcon from "../../images/certificate-external-link.svg";
 
 const certificatesList = [
   {
@@ -52,8 +54,18 @@ function Certificates() {
         <ul className="certificates__list">
           {certificatesList.map(({ name, link, image }) => (
             <li className="certificates__item">
+              <img className="certificate__img" src={image} alt="" />
+              <img
+                className="certificate__loupe_icon"
+                src={loupeBtnIcon}
+                alt="loupe icon"
+              />
               <a href={link} target="_blank" rel="noreferrer">
-                <img className="certificate__img" src={image} alt="" />
+                <img
+                  className="certificate__link_icon"
+                  src={externalLinkBtnIcon}
+                  alt="link icon"
+                />
               </a>
             </li>
           ))}

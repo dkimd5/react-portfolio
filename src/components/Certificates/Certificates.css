@@ -8,10 +8,34 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.certificates__item {
+    position: relative;
+}
+
+.certificates__item:hover {
+    position: relative;
+}
+
 .certificate__img {
     display: block;
     width: 100%;
     object-fit: cover;
+}
+
+.certificate__loupe_icon, .certificate__link_icon {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+} 
+
+.certificate__loupe_icon {
+    width: 40px;
+    right: 30%;
+}
+
+.certificate__link_icon {
+    width: 40px;
+    left: 30%;
 }
 
 @media only screen and (max-width: 1024px) {
