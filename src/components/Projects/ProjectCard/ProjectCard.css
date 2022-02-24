@@ -84,3 +84,52 @@
 .project__icons .devicon{
     font-size: 2rem;
 }
+
+.project__buttons {
+    display: flex;
+    gap: 10px
+}
+
+.project__buttons button {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1216px){
+    .project__buttons button {
+        font-size: 16px;
+        padding: 14px 18px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .project__icons .devicon{
+        font-size: 1.8rem;
+    }
+
+    .project__buttons {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .project__card {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .project__card:nth-child(even) {
+        flex-direction: column;
+    }
+
+    .project__container__img {
+        width: 100%;
+    }
+
+    .project__container__text {
+        width: 100%;
+    }
+
+    .project__buttons {
+        flex-direction: row;
+    }
+}

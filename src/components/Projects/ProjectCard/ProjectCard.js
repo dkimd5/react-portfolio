@@ -25,10 +25,10 @@ function ProjectCard({ project }) {
         </ul>
         <div className="project__buttons">
           <a href={deployLink} target="_blank" rel="noreferrer">
-            <button className="btn pointer">View It Here</button>
+            <button className="btn">View It Here</button>
           </a>
           <a href={githubLink} target="_blank" rel="noreferrer">
-            <button className="btn pointer">View Github Repo</button>
+            <button className="btn">View Github Repo</button>
           </a>
         </div>
       </div>
