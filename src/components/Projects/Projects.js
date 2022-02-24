@@ -64,12 +64,10 @@ function Projects() {
   return (
     <div className="projects component__space" id="Projects">
       <div className="section__container">
-        <div className="heading">
-          <h1 className="heading">My Latest Projects</h1>
-          <p className="heading p__color">
-            A Selection of stuff I've built or took part
-          </p>
-        </div>
+        <h1 className="heading">My Latest Projects</h1>
+        <h2 className="heading">
+          A Selection of stuff I've built or took part
+        </h2>
         <div className="projects__wrapper">
           {projectList.map((project) => (
             <ProjectCard key={project.name} project={project} />

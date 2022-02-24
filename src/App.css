@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mada:wght@400;500;700&family=Poppins:wght@500;600&display=swap');
+
 *{
   padding: 0;
   margin: 0;
@@ -12,6 +14,28 @@ body{
   background-color: #000;
 }
 
+span{
+  display: block;
+}
+
+p{
+  font-size: 16px;
+  font-family: Poppins,sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+li{
+  list-style-type: none;
+}
+
+.component__space{
+  padding: 100px 0px;
+}
+
 .section__container {
   max-width: 1280px;
   width: 100%;
@@ -21,21 +45,29 @@ body{
 h1.heading {
   font-size: 60px;
   text-align: center;
-  font-family: Poppins, sans-serif;
-  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 
-p.heading.p__color {
-  margin-bottom: 0;
+h2.heading {
+  font-size: 24px;
   text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
   line-height: 1.2;
-  font-size: 1.4rem;
+  max-width: 60%;
+  color: rgba(198,201,216,.75);
+  margin: 0 auto 50px;
 }
 
-a{
-  text-decoration: none;
-  color: #fff;
+.p__text {
+  color: rgba(198,201,216,.75);
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Mada",sans-serif;
+  font-weight: 400;
+  margin-bottom: 15px;
 }
 
 h1 {
@@ -43,19 +75,6 @@ h1 {
   font-weight: 700;
   color: #fff;
   font-family: "Crimson Pro", serif;
-}
-
-li{
-  overflow: hidden;
-}
-
-span{
-  display: block;
-}
-
-p{
-  font-size: 16px;
-  font-family: Poppins,sans-serif;
 }
 
 .white{
@@ -124,10 +143,6 @@ p{
   margin-top: 20px;
 }
 
-.component__space{
-  padding: 100px 0px;
-}
-
 .pointer{
   cursor: pointer;
 }
@@ -162,21 +177,12 @@ button.btn {
   color: #fff!important;
   letter-spacing: 2px;
   transition: .4s all ease;
-  margin: 0px 10px;
   padding: 15px 20px;
 }
 
 button.btn:hover{
   background: #fff;
   color: #000!important;
-}
-
-.p__color {
-  color: rgba(198,201,216,.75);
-  font-size: 18px;
-  line-height: 30px;
-  font-family: Poppins,sans-serif;
-  margin-bottom: 15px;
 }
 
 @media only screen and (max-width:1408px) {
@@ -186,6 +192,15 @@ button.btn:hover{
 }
 
 @media only screen and (max-width: 768px){
+  h1.heading {
+    font-size: 50px;
+  }
+
+  h2.heading {
+    max-width: 100%;
+    font-size: 20px;
+  }
+
   .col__2 {
       max-width: 100%;
   }
@@ -200,6 +215,10 @@ button.btn:hover{
 }
   
 @media only screen and (max-width: 425px){
+  h1.heading {
+    font-size: 40px;
+  }
+
   .col__3 {
       max-width: 100%;
   }

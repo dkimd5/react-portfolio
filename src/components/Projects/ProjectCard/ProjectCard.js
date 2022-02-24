@@ -14,8 +14,8 @@ function ProjectCard({ project }) {
         <img src={image} alt="project page" className="project__img"></img>
       </div>
       <div className="project__container__text">
-        <h2>{name}</h2>
-        <p className="p__color">{description}</p>
+        <h3>{name}</h3>
+        <p className="p__text">{description}</p>
         <ul className="project__icons">
           {icons.map((icon) => (
             <li className="project__box__icon">
@@ -25,10 +25,10 @@ function ProjectCard({ project }) {
         </ul>
         <div className="project__buttons">
           <a href={deployLink} target="_blank" rel="noreferrer">
-            <button className="btn pointer">View It Here</button>
+            <button className="btn">View It Here</button>
           </a>
           <a href={githubLink} target="_blank" rel="noreferrer">
-            <button className="btn pointer">View Github Repo</button>
+            <button className="btn">View Github Repo</button>
           </a>
         </div>
       </div>
