@@ -202,6 +202,10 @@ button.btn:hover{
     font-size: 50px;
   }
 
+  h2.heading {
+    max-width: 100%;
+  }
+
   .col__2 {
       max-width: 100%;
   }
