@@ -46,18 +46,18 @@ function Certificates() {
       <div className="section__container">
         <h1 className="heading">My Certificates</h1>
         <h2 className="heading">
-          There are many variations of passages of Lorem Ipsum available but the
-          majority have suffered alteration.
+          There is not all certificates, but the most valuable of my frontend
+          study
         </h2>
-        <div className="row">
+        <ul className="certificates__list">
           {certificatesList.map(({ name, link, image }) => (
-            <div className="col__3">
-              <a href={link} target="_blank">
+            <li className="certificates__item">
+              <a href={link} target="_blank" rel="noreferrer">
                 <img className="certificate__img" src={image} alt="" />
               </a>
-            </div>
+            </li>
           ))}
-        </div>
+        </ul>
       </div>
     </div>
   );
