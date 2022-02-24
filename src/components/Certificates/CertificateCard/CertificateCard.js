@@ -11,7 +11,11 @@ function CertificateCard({ certificate }) {
   return (
     <li className="certificates__item">
       <img className="certificate__img" src={image} alt="small certificate" />
-      <ModalComponent show={modalShow} onHide={() => setModalShow(false)} />
+      <ModalComponent
+        image={image}
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+      />
       <img
         onClick={() => setModalShow(true)}
         className="certificate__loupe_icon"

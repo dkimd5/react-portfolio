@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mada:wght@400;500;700&family=Poppins:wght@500;600&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
 
 *{
   padding: 0;
