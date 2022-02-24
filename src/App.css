@@ -193,10 +193,6 @@ button.btn:hover{
   }
 }
 
-/* @media only screen and (max-width:1024px) {
-  
-} */
-
 @media only screen and (max-width: 768px){
   h1.heading {
     font-size: 50px;
@@ -204,6 +200,7 @@ button.btn:hover{
 
   h2.heading {
     max-width: 100%;
+    font-size: 20px;
   }
 
   .col__2 {
@@ -222,10 +219,6 @@ button.btn:hover{
 @media only screen and (max-width: 425px){
   h1.heading {
     font-size: 40px;
-  }
-
-  h2.heading {
-    font-size: 20px;
   }
 
   .col__3 {
