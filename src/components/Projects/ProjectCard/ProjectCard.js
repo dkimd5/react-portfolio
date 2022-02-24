@@ -15,7 +15,7 @@ function ProjectCard({ project }) {
       </div>
       <div className="project__container__text">
         <h3>{name}</h3>
-        <p className="p__color">{description}</p>
+        <p className="p__text">{description}</p>
         <ul className="project__icons">
           {icons.map((icon) => (
             <li className="project__box__icon">
