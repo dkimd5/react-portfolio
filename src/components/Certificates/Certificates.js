@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Certificates.css";
 import certificateGit from "../../images/CertificateGit.jpeg";
 import certificateHTMLandCSS from "../../images/CertificateHTMLandCSS.jpeg";
@@ -6,9 +6,7 @@ import certificateJS1 from "../../images/CertificateJS1.jpeg";
 import certificateJS2 from "../../images/CertificateJS2.jpeg";
 import certificateDB from "../../images/CertificateDatabase.jpeg";
 import certificateReact from "../../images/CertificateReact.jpeg";
-import loupeBtnIcon from "../../images/certificate-loupe.svg";
-import externalLinkBtnIcon from "../../images/certificate-external-link.svg";
-import ModalComponent from "./ModalComponent/ModalComponent";
+import CertificateCard from "./CertificateCard/CertificateCard";
 
 const certificatesList = [
   {
@@ -53,23 +51,8 @@ function Certificates() {
           study
         </h2>
         <ul className="certificates__list">
-          {certificatesList.map(({ name, link, image }) => (
-            <li className="certificates__item">
-              <img className="certificate__img" src={image} alt="" />
-              <img
-                onClick={() => setModalShow(true)}
-                className="certificate__loupe_icon"
-                src={loupeBtnIcon}
-                alt="loupe icon"
-              />
-              <a href={link} target="_blank" rel="noreferrer">
-                <img
-                  className="certificate__link_icon"
-                  src={externalLinkBtnIcon}
-                  alt="link icon"
-                />
-              </a>
-            </li>
+          {certificatesList.map((certificate) => (
+            <CertificateCard certificate={certificate} />
           ))}
         </ul>
       </div>
