@@ -52,7 +52,7 @@ function Certificates() {
         </h2>
         <ul className="certificates__list">
           {certificatesList.map((certificate) => (
-            <CertificateCard certificate={certificate} />
+            <CertificateCard key={certificate.name} certificate={certificate} />
           ))}
         </ul>
       </div>
