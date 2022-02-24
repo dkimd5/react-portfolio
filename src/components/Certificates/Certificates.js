@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Certificates.css";
 import certificateGit from "../../images/CertificateGit.jpeg";
 import certificateHTMLandCSS from "../../images/CertificateHTMLandCSS.jpeg";
@@ -8,6 +8,7 @@ import certificateDB from "../../images/CertificateDatabase.jpeg";
 import certificateReact from "../../images/CertificateReact.jpeg";
 import loupeBtnIcon from "../../images/certificate-loupe.svg";
 import externalLinkBtnIcon from "../../images/certificate-external-link.svg";
+import ModalComponent from "./ModalComponent/ModalComponent";
 
 const certificatesList = [
   {
@@ -56,6 +57,7 @@ function Certificates() {
             <li className="certificates__item">
               <img className="certificate__img" src={image} alt="" />
               <img
+                onClick={() => setModalShow(true)}
                 className="certificate__loupe_icon"
                 src={loupeBtnIcon}
                 alt="loupe icon"
