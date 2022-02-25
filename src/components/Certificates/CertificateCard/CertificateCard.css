@@ -41,3 +41,16 @@
     width: 40px;
     left: 30%;
 }
+
+@media (pointer:coarse) {
+    .certificates__item a {
+        display: none;
+    }
+
+    .certificate__loupe_icon {
+        position: static;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+    }
+}
