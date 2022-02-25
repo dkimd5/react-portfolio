@@ -57,22 +57,52 @@ function Contact() {
             </p>
             <ul className="socials__list">
               <li>
-                <AiFillGithub size={40} className="icon-color" />
+                <a
+                  href="https://github.com/dkimd5"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <AiFillGithub size={40} className="icon-color" />
+                </a>
               </li>
               <li>
-                <AiOutlineInstagram size={40} className="icon-color" />
+                <a
+                  href="https://www.instagram.com/kim_en_su/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <AiOutlineInstagram size={40} className="icon-color" />
+                </a>
               </li>
               <li>
                 <AiFillLinkedin size={40} className="icon-color" />
               </li>
               <li>
-                <AiOutlineWhatsApp size={40} className="icon-color" />
+                <a
+                  href="https://wa.me/+79169143677"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <AiOutlineWhatsApp size={40} className="icon-color" />
+                </a>
               </li>
               <li>
-                <BsTelegram size={40} className="icon-color" />
+                <a
+                  href="tg://resolve?domain=kim_en_su"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <BsTelegram size={40} className="icon-color" />
+                </a>
               </li>
               <li>
-                <img src={vkIcon} alt="vk icon" className="vk-icon" />
+                <a
+                  href="https://vk.com/dimonkim777"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={vkIcon} alt="vk icon" className="vk-icon" />
+                </a>
               </li>
             </ul>
           </div>
