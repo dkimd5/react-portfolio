@@ -30,6 +30,10 @@
     color: #fff;
 }
 
+.home__text3 {
+    color: #f9004d;
+}
+
 @media only screen and (max-width:1408px) {
     .home__header {
         font-size: 3.2rem;
