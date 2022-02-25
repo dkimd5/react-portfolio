@@ -61,6 +61,8 @@ input.contact:focus, textarea#message:focus {
 .socials__list li {
     display: flex;
     align-items: center;
+    transition: transform .2s ease-in-out;
+    cursor: pointer;
 }
 
 .icon-color {
@@ -70,4 +72,18 @@ input.contact:focus, textarea#message:focus {
 .vk-icon {
     filter: invert(28%) sepia(99%) saturate(1359%) hue-rotate(213deg) brightness(103%) contrast(93%);
     width: 50px;
+}
+
+.socials__list li:hover {
+    transform: scale(1.4);
+}
+
+.socials__list li:hover .icon-color {
+    transition: .7s all ease;
+    color:#f9004d;
+}
+
+.socials__list li:hover .vk-icon {
+    transition: .7s all ease;
+    filter: invert(16%) sepia(97%) saturate(5866%) hue-rotate(336deg) brightness(101%) contrast(111%);
 }
