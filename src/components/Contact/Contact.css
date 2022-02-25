@@ -2,15 +2,8 @@
     background-color: #191919;
 }
 
-.contact__heading {
-    font-size: 60px;
-}
-
-p.hire__text {
-    font-size: 18px;
-    line-height: 30px;
-    color: rgba(29, 29, 36, .75);
-    font-weight: 400;
+.contact h1.heading {
+    text-align: start;
 }
 
 input.contact{
@@ -42,15 +35,4 @@ textarea#message{
     font-size: 15px;
     letter-spacing: .1px;
     border: 2px solid hsla(0,0%,100%,.2);
-}
-
-button.btn.contact.pointer {
-    margin: 20px 0px;
-}
-
-.contact__img{
-    border-radius: 10px;
-    width: 55%;
-    overflow: hidden;
-    margin: 0 auto;
 }
