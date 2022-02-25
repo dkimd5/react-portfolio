@@ -2,22 +2,22 @@
     background-color: #191919;
 }
 
-.contact__heading {
-    font-size: 60px;
+.contact h1.heading {
+    text-align: start;
 }
 
-p.hire__text {
-    font-size: 18px;
-    line-height: 30px;
-    color: rgba(29, 29, 36, .75);
-    font-weight: 400;
+.contact__content__wrp {
+    display: flex;
 }
 
-input.contact{
+.contact__form {
+    width: 50%;
+}
+
+input.contact {
     display: block;
     width: 100%;
     padding: 0 20px;
-    border: 2px solid rgba(0,0,0,.1);
     border-radius: 5px;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
@@ -29,28 +29,107 @@ input.contact{
     font-size: 15px;
     letter-spacing: .1px;
     background: none;
-    border: 2px solid hsla(0,0%,100%,.2);
+    border: 2px solid rgba(255, 255, 255, 0.7);
 }
 
-textarea#message{
+textarea#message {
     height: 120px;
     background: none;
     padding: 0 20px;
     width: 100%;
-    line-height: 46px;
     color: #fff;
+    padding-top: 10px;
     font-size: 15px;
     letter-spacing: .1px;
-    border: 2px solid hsla(0,0%,100%,.2);
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    margin-bottom: 20px;
 }
 
-button.btn.contact.pointer {
-    margin: 20px 0px;
+input.contact:focus, textarea#message:focus {
+    border: 2px solid rgba(249, 0, 77, 0.5);
 }
 
-.contact__img{
-    border-radius: 10px;
-    width: 55%;
-    overflow: hidden;
-    margin: 0 auto;
+.contact__socials {
+    padding: 126px 0 0 45px;
+    width: 40%;
+}
+
+.socials__list {
+    display: flex;
+    /* gap: 2rem; */
+}
+
+.socials__list li {
+    display: flex;
+    align-items: center;
+    transition: transform .2s ease-in-out;
+    cursor: pointer;
+    width: calc(100%/6);
+}
+
+.icon-color {
+    color: #394ff4;
+}
+
+.vk-icon {
+    filter: invert(28%) sepia(99%) saturate(1359%) hue-rotate(213deg) brightness(103%) contrast(93%);
+    width: 50px;
+}
+
+.socials__list li:hover {
+    transform: scale(1.4);
+}
+
+.socials__list li:hover .icon-color {
+    transition: .7s all ease;
+    color:#f9004d;
+}
+
+.socials__list li:hover .vk-icon {
+    transition: .7s all ease;
+    filter: invert(16%) sepia(97%) saturate(5866%) hue-rotate(336deg) brightness(101%) contrast(111%);
+}
+
+@media only screen and (max-width:1216px) {
+    .contact__socials {
+        width: 50%;
+    }
+
+    .socials__list {
+        display: flex;
+        gap: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .contact__form {
+        width: 60%;
+    }
+
+    .contact__socials {
+        width: 40%;
+    }
+
+    .socials__list {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .contact__content__wrp {
+        display: block;
+    }
+
+    .contact__form, .contact__socials {
+        width: 100%;
+    }
+
+    .socials__list {
+        flex-wrap: nowrap;
+    }
+
+    .contact__socials {
+        padding: 50px 0 0;
+    }
+
 }

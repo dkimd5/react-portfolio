@@ -48,9 +48,9 @@ function About() {
               I'm happy to create, learn and explore new things. Currently
               improving and sharping my skills. Feel free to contact me!
             </p>
-            <div className="about__button align__items_center">
+            <div className="about__button">
               <a href="#Contact">
-                <button className="about btn pointer">Get In Touch!</button>
+                <button className="about btn">Get In Touch!</button>
               </a>
             </div>
           </div>
