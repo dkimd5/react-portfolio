@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import logo from "../../images/logo-haski.png";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { SiMusicbrainz } from "react-icons/si";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -22,11 +22,10 @@ function Navbar() {
     <div className={color ? "header header-bg" : "header"}>
       <div className="section__container">
         <div className="header-wrp">
-          <div className="logo">
-            <a href="#">
-              <img src={logo} alt="logo" />
-            </a>
-          </div>
+          <a href="#" className="logo">
+            {/* <img src={logo} alt="logo" /> */}
+            <SiMusicbrainz size={40} />
+          </a>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav__items">
               <a href="#Home">Home</a>
