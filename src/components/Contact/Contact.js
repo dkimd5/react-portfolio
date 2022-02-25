@@ -1,14 +1,13 @@
 import React from "react";
 import "./Contact.css";
-
-const socialsList = [
-  { name: "Instagram" },
-  { name: "Github" },
-  { name: "LinkedIn" },
-  { name: "WhatsUp" },
-  { name: "Telegram" },
-  { name: "VK" },
-];
+import {
+  AiOutlineInstagram,
+  AiFillGithub,
+  AiFillLinkedin,
+  AiOutlineWhatsApp,
+} from "react-icons/ai";
+import { BsTelegram } from "react-icons/bs";
+import vkIcon from "../../images/vk-icon.svg";
 
 function Contact() {
   return (
@@ -51,7 +50,28 @@ function Contact() {
               </button>
             </form>
           </div>
-          <div className="contact__icons"></div>
+          <div className="contact__icons">
+            <ul>
+              <li>
+                <AiFillGithub size={40} className="icon-color" />
+              </li>
+              <li>
+                <AiOutlineInstagram size={40} className="icon-color" />
+              </li>
+              <li>
+                <AiFillLinkedin size={40} className="icon-color" />
+              </li>
+              <li>
+                <AiOutlineWhatsApp size={40} className="icon-color" />
+              </li>
+              <li>
+                <BsTelegram size={40} className="icon-color" />
+              </li>
+              <li>
+                <img src={vkIcon} alt="vk icon" className="vk-icon-color" />
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
