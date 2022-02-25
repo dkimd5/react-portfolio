@@ -87,9 +87,9 @@ function Skills() {
             </p>
           </li>
         </ul>
-        <div className="h3__wrap">
-          <h3 className="skills__h3__header">Currently working on:</h3>
-          <p className="skills__h3__text">
+        <div className="sills__h3__wrap">
+          <h3>Currently working on:</h3>
+          <p>
             Improving my skills in, and understanding of vanilla JavaScript and
             React.
           </p>
