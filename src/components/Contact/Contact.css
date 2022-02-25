@@ -37,8 +37,9 @@ textarea#message {
     background: none;
     padding: 0 20px;
     width: 100%;
-    line-height: 46px;
     color: #fff;
+    /* line-height: 2.5; */
+    padding-top: 10px;
     font-size: 15px;
     letter-spacing: .1px;
     border: 2px solid rgba(255, 255, 255, 0.7);
