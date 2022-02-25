@@ -4,6 +4,10 @@
     gap: 100px;
 }
 
+.projects h2 {
+    padding-bottom: 30px;
+}
+
 div.heading {
     margin-bottom: 50px;
 }

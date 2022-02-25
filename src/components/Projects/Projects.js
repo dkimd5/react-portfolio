@@ -64,9 +64,10 @@ function Projects() {
   return (
     <div className="projects component__space" id="Projects">
       <div className="section__container">
-        <h1 className="heading">My Latest Projects</h1>
+        <h1 className="heading">My Projects</h1>
         <h2 className="heading">
-          A Selection of stuff I've built or took part
+          A Selection of stuff I've built or took part. There is not all works,
+          some are still in process, I will update this list in future
         </h2>
         <div className="projects__wrapper">
           {projectList.map((project) => (
