@@ -73,3 +73,15 @@ h2.heading.p__color {
     font-family: "Mada",sans-serif;
     font-weight: 400;
 }
+
+@media only screen and (max-width:1216px) {
+    .box__icon {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .box__icon {
+        width: 50%;
+    }
+}
