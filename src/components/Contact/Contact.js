@@ -51,6 +51,10 @@ function Contact() {
             </form>
           </div>
           <div className="contact__socials">
+            <p className="p__text">
+              Feeling social?
+              <br /> Find me on these online spaces!
+            </p>
             <ul className="socials__list">
               <li>
                 <AiFillGithub size={40} className="icon-color" />

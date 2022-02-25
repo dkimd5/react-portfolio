@@ -49,8 +49,13 @@ input.contact:focus, textarea#message:focus {
     border: 2px solid rgba(249, 0, 77, 0.5);
 }
 
+.contact__socials {
+    padding: 126px 0 0 45px;
+}
+
 .socials__list {
     display: flex;
+    gap: 2rem;
 }
 
 .socials__list li {
