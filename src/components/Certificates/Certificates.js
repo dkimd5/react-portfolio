@@ -6,6 +6,7 @@ import certificateJS1 from "../../images/CertificateJS1.jpeg";
 import certificateJS2 from "../../images/CertificateJS2.jpeg";
 import certificateDB from "../../images/CertificateDatabase.jpeg";
 import certificateReact from "../../images/CertificateReact.jpeg";
+import CertificateCard from "./CertificateCard/CertificateCard";
 
 const certificatesList = [
   {
@@ -46,18 +47,14 @@ function Certificates() {
       <div className="section__container">
         <h1 className="heading">My Certificates</h1>
         <h2 className="heading">
-          There are many variations of passages of Lorem Ipsum available but the
-          majority have suffered alteration.
+          There is not all certificates, but the most valuable of my frontend
+          study
         </h2>
-        <div className="row">
-          {certificatesList.map(({ name, link, image }) => (
-            <div className="col__3">
-              <a href={link} target="_blank">
-                <img className="certificate__img" src={image} alt="" />
-              </a>
-            </div>
+        <ul className="certificates__list">
+          {certificatesList.map((certificate) => (
+            <CertificateCard key={certificate.name} certificate={certificate} />
           ))}
-        </div>
+        </ul>
       </div>
     </div>
   );
