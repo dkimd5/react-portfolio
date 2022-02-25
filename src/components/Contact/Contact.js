@@ -1,6 +1,15 @@
 import React from "react";
 import "./Contact.css";
 
+socialsList = [
+  { name: Instagram },
+  { name: Github },
+  { name: LinkedIn },
+  { name: WhatsUp },
+  { name: Telegram },
+  { name: VK },
+];
+
 function Contact() {
   return (
     <div className="contact component__space" id="Contact">
