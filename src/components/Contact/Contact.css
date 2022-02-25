@@ -38,7 +38,6 @@ textarea#message {
     padding: 0 20px;
     width: 100%;
     color: #fff;
-    /* line-height: 2.5; */
     padding-top: 10px;
     font-size: 15px;
     letter-spacing: .1px;
@@ -52,11 +51,12 @@ input.contact:focus, textarea#message:focus {
 
 .contact__socials {
     padding: 126px 0 0 45px;
+    width: 40%;
 }
 
 .socials__list {
     display: flex;
-    gap: 2rem;
+    /* gap: 2rem; */
 }
 
 .socials__list li {
@@ -64,6 +64,7 @@ input.contact:focus, textarea#message:focus {
     align-items: center;
     transition: transform .2s ease-in-out;
     cursor: pointer;
+    width: calc(100%/6);
 }
 
 .icon-color {
@@ -87,4 +88,48 @@ input.contact:focus, textarea#message:focus {
 .socials__list li:hover .vk-icon {
     transition: .7s all ease;
     filter: invert(16%) sepia(97%) saturate(5866%) hue-rotate(336deg) brightness(101%) contrast(111%);
+}
+
+@media only screen and (max-width:1216px) {
+    .contact__socials {
+        width: 50%;
+    }
+
+    .socials__list {
+        display: flex;
+        gap: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .contact__form {
+        width: 60%;
+    }
+
+    .contact__socials {
+        width: 40%;
+    }
+
+    .socials__list {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .contact__content__wrp {
+        display: block;
+    }
+
+    .contact__form, .contact__socials {
+        width: 100%;
+    }
+
+    .socials__list {
+        flex-wrap: nowrap;
+    }
+
+    .contact__socials {
+        padding: 50px 0 0;
+    }
+
 }
