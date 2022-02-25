@@ -49,11 +49,20 @@ input.contact:focus, textarea#message:focus {
     border: 2px solid rgba(249, 0, 77, 0.5);
 }
 
+.socials__list {
+    display: flex;
+}
+
+.socials__list li {
+    display: flex;
+    align-items: center;
+}
+
 .icon-color {
     color: #394ff4;
 }
 
-.vk-icon-color {
+.vk-icon {
     filter: invert(28%) sepia(99%) saturate(1359%) hue-rotate(213deg) brightness(103%) contrast(93%);
     width: 50px;
 }

@@ -50,8 +50,8 @@ function Contact() {
               </button>
             </form>
           </div>
-          <div className="contact__icons">
-            <ul>
+          <div className="contact__socials">
+            <ul className="socials__list">
               <li>
                 <AiFillGithub size={40} className="icon-color" />
               </li>
@@ -68,7 +68,7 @@ function Contact() {
                 <BsTelegram size={40} className="icon-color" />
               </li>
               <li>
-                <img src={vkIcon} alt="vk icon" className="vk-icon-color" />
+                <img src={vkIcon} alt="vk icon" className="vk-icon" />
               </li>
             </ul>
           </div>
