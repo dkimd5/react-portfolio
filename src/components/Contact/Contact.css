@@ -56,7 +56,6 @@ input.contact:focus, textarea#message:focus {
 
 .socials__list {
     display: flex;
-    /* gap: 2rem; */
 }
 
 .socials__list li {
@@ -131,5 +130,10 @@ input.contact:focus, textarea#message:focus {
     .contact__socials {
         padding: 50px 0 0;
     }
+}
 
+@media only screen and (max-width:425px) {
+    .socials__list {
+        flex-wrap: wrap;
+    }
 }
