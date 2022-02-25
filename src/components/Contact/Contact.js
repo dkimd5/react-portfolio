@@ -20,12 +20,12 @@ function Contact() {
             <input
               type="text"
               className="contact name"
-              placeholder="Your name *"
+              placeholder="Your name*"
             />
             <input
               type="text"
               className="contact email"
-              placeholder="Your Email *"
+              placeholder="Your Email*"
             />
             <input
               type="text"

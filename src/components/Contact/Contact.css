@@ -6,11 +6,10 @@
     text-align: start;
 }
 
-input.contact{
+input.contact {
     display: block;
     width: 100%;
     padding: 0 20px;
-    border: 2px solid rgba(0,0,0,.1);
     border-radius: 5px;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
@@ -22,10 +21,10 @@ input.contact{
     font-size: 15px;
     letter-spacing: .1px;
     background: none;
-    border: 2px solid hsla(0,0%,100%,.2);
+    border: 2px solid rgba(255, 255, 255, 0.7);
 }
 
-textarea#message{
+textarea#message {
     height: 120px;
     background: none;
     padding: 0 20px;
@@ -34,5 +33,9 @@ textarea#message{
     color: #fff;
     font-size: 15px;
     letter-spacing: .1px;
-    border: 2px solid hsla(0,0%,100%,.2);
+    border: 2px solid rgba(255, 255, 255, 0.7);
+}
+
+input.contact:focus, textarea#message:focus {
+    border: 2px solid rgba(249, 0, 77, 0.5);
 }
