@@ -46,6 +46,10 @@
     padding: 20px 0px;
 }
 
+.about__button button {
+    cursor: pointer;
+}
+
 a.bottom__to__top {
     height: 40px;
     width: 40px;
@@ -66,12 +70,6 @@ a.bottom__to__top.active {
     display: flex;
 }
 
-@media only screen and (max-width: 1024px) {
-    .p__color {
-        font-size: 15px!important;
-    }
-}
-
 @media only screen and (max-width: 768px) {
     .about__heading {
         font-size: 50px;
@@ -89,15 +87,5 @@ a.bottom__to__top.active {
     .about__text__wrapper {
         margin: 0 auto;
         width: 90%;
-    }
-}
-
-@media only screen and (max-width: 425px) {
-    button.about.btn.pointer {
-        text-transform: capitalize;
-        width: 165px;
-        height: 50px;
-        font-size: 13px;
-        transition: .4s ease;
     }
 }
