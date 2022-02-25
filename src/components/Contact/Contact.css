@@ -6,6 +6,10 @@
     text-align: start;
 }
 
+.contact__content__wrp {
+    display: flex;
+}
+
 .contact__form {
     width: 50%;
 }

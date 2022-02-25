@@ -51,6 +51,7 @@ function Contact() {
               </button>
             </form>
           </div>
+          <div className="contact__icons"></div>
         </div>
       </div>
     </div>
