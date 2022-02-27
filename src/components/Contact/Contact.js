@@ -11,17 +11,17 @@ import vkIcon from "../../images/vk-icon.svg";
 import emailjs from "@emailjs/browser";
 
 function Contact() {
-  const formRef = useRef();
+  const form = useRef();
 
-  const sendEmail = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_mu9wrfk",
+        "template_0unfuga",
         form.current,
-        "YOUR_USER_ID"
+        "user_WBPcOWSLnWOWh1sMWDSsD"
       )
       .then(
         (result) => {
@@ -47,7 +47,7 @@ function Contact() {
               Fill in your info in the form below and I look forward to hearing
               from you!
             </p>
-            <form ref={formRef} action="https://submit-form.com/O9qFrudU">
+            <form ref={form} action="https://submit-form.com/O9qFrudU">
               <input
                 name="user_name"
                 type="text"
