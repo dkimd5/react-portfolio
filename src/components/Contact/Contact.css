@@ -89,6 +89,21 @@ input.contact:focus, textarea#message:focus {
     filter: invert(16%) sepia(97%) saturate(5866%) hue-rotate(336deg) brightness(101%) contrast(111%);
 }
 
+.btn__submit__msg__wrp {
+    display: flex;
+    width: 100%;
+    gap: 10%;
+}
+
+.success_error_text {
+    width: 50%;
+    color: #394ff4;
+}
+
+.error_color {
+    color: #f9004d;
+}
+
 @media only screen and (max-width:1216px) {
     .contact__socials {
         width: 50%;
@@ -136,4 +151,15 @@ input.contact:focus, textarea#message:focus {
     .socials__list {
         flex-wrap: wrap;
     }
+
+    .btn__submit__msg__wrp {
+        display: block;
+    }
+
+    .success_error_text {
+        width: 100%;
+        margin-top: 20px;
+        color: #394ff4;
+    }
+    
 }

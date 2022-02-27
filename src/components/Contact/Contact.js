@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import "./Contact.css";
 import {
   AiOutlineInstagram,
@@ -8,8 +8,37 @@ import {
 } from "react-icons/ai";
 import { BsTelegram } from "react-icons/bs";
 import vkIcon from "../../images/vk-icon.svg";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
+  const form = useRef();
+  const [isSended, setIsSended] = useState(false);
+  const [isError, setIsError] = useState(false);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_mu9wrfk",
+        "template_0unfuga",
+        form.current,
+        "user_WBPcOWSLnWOWh1sMWDSsD"
+      )
+      .then(
+        (result) => {
+          setIsError(false);
+          setIsSended(true);
+          console.log(result.text);
+        },
+        (error) => {
+          setIsSended(false);
+          setIsError(true);
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <div className="contact component__space" id="Contact">
       <div className="section__container">
@@ -24,18 +53,21 @@ function Contact() {
               Fill in your info in the form below and I look forward to hearing
               from you!
             </p>
-            <form>
+            <form ref={form} onSubmit={handleSubmit}>
               <input
+                name="user_name"
                 type="text"
                 className="contact name"
                 placeholder="Your name*"
               />
               <input
+                name="user_email"
                 type="text"
                 className="contact email"
                 placeholder="Your Email*"
               />
               <input
+                name="user_subject"
                 type="text"
                 className="contact subject"
                 placeholder="Write a Subject"
@@ -45,9 +77,25 @@ function Contact() {
                 id="message"
                 placeholder="Write Your message"
               ></textarea>
-              <button className="btn contact" type="submit">
-                Send Email
-              </button>
+              <div className="btn__submit__msg__wrp">
+                <button className="btn contact" type="submit">
+                  Send Email
+                </button>
+                {isSended ? (
+                  <p className="success_error_text">
+                    Thank you for email, I will try to reply as soon as possible
+                  </p>
+                ) : (
+                  ""
+                )}
+                {isError ? (
+                  <p className="success_error_text error_color">
+                    Oops, something went wrong
+                  </p>
+                ) : (
+                  ""
+                )}
+              </div>
             </form>
           </div>
           <div className="contact__socials">
