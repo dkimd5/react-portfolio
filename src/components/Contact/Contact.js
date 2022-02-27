@@ -8,9 +8,30 @@ import {
 } from "react-icons/ai";
 import { BsTelegram } from "react-icons/bs";
 import vkIcon from "../../images/vk-icon.svg";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
   const formRef = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "YOUR_SERVICE_ID",
+        "YOUR_TEMPLATE_ID",
+        form.current,
+        "YOUR_USER_ID"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
   return (
     <div className="contact component__space" id="Contact">
