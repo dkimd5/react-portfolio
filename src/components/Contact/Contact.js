@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Contact.css";
 import {
   AiOutlineInstagram,
@@ -10,6 +10,8 @@ import { BsTelegram } from "react-icons/bs";
 import vkIcon from "../../images/vk-icon.svg";
 
 function Contact() {
+  const formRef = useRef();
+
   return (
     <div className="contact component__space" id="Contact">
       <div className="section__container">
@@ -24,18 +26,21 @@ function Contact() {
               Fill in your info in the form below and I look forward to hearing
               from you!
             </p>
-            <form>
+            <form ref={formRef} action="https://submit-form.com/O9qFrudU">
               <input
+                name="user_name"
                 type="text"
                 className="contact name"
                 placeholder="Your name*"
               />
               <input
+                name="user_email"
                 type="text"
                 className="contact email"
                 placeholder="Your Email*"
               />
               <input
+                name="user_subject"
                 type="text"
                 className="contact subject"
                 placeholder="Write a Subject"
