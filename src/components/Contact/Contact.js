@@ -47,7 +47,7 @@ function Contact() {
               Fill in your info in the form below and I look forward to hearing
               from you!
             </p>
-            <form ref={form} action="https://submit-form.com/O9qFrudU">
+            <form ref={form} onSubmit={handleSubmit}>
               <input
                 name="user_name"
                 type="text"
