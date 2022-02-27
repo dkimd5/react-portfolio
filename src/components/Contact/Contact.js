@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import "./Contact.css";
 import {
   AiOutlineInstagram,
@@ -12,6 +12,8 @@ import emailjs from "@emailjs/browser";
 
 function Contact() {
   const form = useRef();
+  const [isSended, setIsSended] = useState(false);
+  const [isError, setIsError] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -25,9 +27,13 @@ function Contact() {
       )
       .then(
         (result) => {
+          setIsError(false);
+          setIsSended(true);
           console.log(result.text);
         },
         (error) => {
+          setIsSended(false);
+          setIsError(true);
           console.log(error.text);
         }
       );
@@ -71,9 +77,25 @@ function Contact() {
                 id="message"
                 placeholder="Write Your message"
               ></textarea>
-              <button className="btn contact" type="submit">
-                Send Email
-              </button>
+              <div className="btn__submit__msg__wrp">
+                <button className="btn contact" type="submit">
+                  Send Email
+                </button>
+                {isSended ? (
+                  <p className="success_error_text">
+                    Thank you for email, I will try to reply as soon as possible
+                  </p>
+                ) : (
+                  ""
+                )}
+                {isError ? (
+                  <p className="success_error_text error_color">
+                    Oops, something went wrong
+                  </p>
+                ) : (
+                  ""
+                )}
+              </div>
             </form>
           </div>
           <div className="contact__socials">
