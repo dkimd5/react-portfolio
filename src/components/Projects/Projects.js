@@ -4,6 +4,7 @@ import "./Projects.css";
 import waxomImg from "../../images/project-waxom-img.jpg";
 import messengerImg from "../../images/project-messenger-img.jpg";
 import firegramImg from "../../images/project-firegram-img.jpg";
+import momentumImg from "../../images/project-momentum-img.jpeg";
 
 const projectList = [
   {
@@ -37,12 +38,21 @@ const projectList = [
       "devicon devicon-materialui-plain colored",
     ],
   },
-  // {
-  //   name: "CookBook",
-  //   deployLink: "",
-  //   githubLink: "",
-  //   image: "",
-  // },
+  {
+    name: "Momentum",
+    deployLink: "https://dkimd5.github.io/momentum-clone/",
+    githubLink: "https://github.com/dkimd5/momentum-clone",
+    image: momentumImg,
+    description:
+      "A small react app based on google momentum, made with weather, random quotes apis and axios",
+    icons: [
+      "devicon devicon-html5-plain colored",
+      "devicon devicon-css3-plain colored",
+      "devicon devicon-javascript-plain colored",
+      "devicon devicon-react-original colored",
+      "devicon fas fa-cogs",
+    ],
+  },
   {
     name: "Firegram",
     deployLink: "https://react-app-firegram.herokuapp.com/",
