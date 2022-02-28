@@ -7,7 +7,7 @@ import {
   AiOutlineWhatsApp,
 } from "react-icons/ai";
 import { BsTelegram } from "react-icons/bs";
-import vkIcon from "../../images/vk-icon.svg";
+import vkIcon from "../../assets/vk-icon.svg";
 import emailjs from "@emailjs/browser";
 
 function Contact() {

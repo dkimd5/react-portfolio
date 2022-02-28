@@ -1,10 +1,10 @@
 import React from "react";
 import ProjectCard from "./ProjectCard/ProjectCard";
 import "./Projects.css";
-import waxomImg from "../../images/project-waxom-img.jpg";
-import messengerImg from "../../images/project-messenger-img.jpg";
-import firegramImg from "../../images/project-firegram-img.jpg";
-import momentumImg from "../../images/project-momentum-img.jpeg";
+import waxomImg from "../../assets/project-waxom-img.jpg";
+import messengerImg from "../../assets/project-messenger-img.jpg";
+import firegramImg from "../../assets/project-firegram-img.jpg";
+import momentumImg from "../../assets/project-momentum-img.jpeg";
 
 const projectList = [
   {
