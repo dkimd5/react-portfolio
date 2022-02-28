@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./CertificateCard.css";
-import loupeBtnIcon from "../../../images/certificate-loupe.svg";
-import externalLinkBtnIcon from "../../../images/certificate-external-link.svg";
+import loupeBtnIcon from "../../../assets/certificate-loupe.svg";
+import externalLinkBtnIcon from "../../../assets/certificate-external-link.svg";
 import ModalComponent from "../ModalComponent/ModalComponent";
 
 function CertificateCard({ certificate }) {

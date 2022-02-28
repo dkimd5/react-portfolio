@@ -1,11 +1,11 @@
 import React from "react";
 import "./Certificates.css";
-import certificateGit from "../../images/CertificateGit.jpeg";
-import certificateHTMLandCSS from "../../images/CertificateHTMLandCSS.jpeg";
-import certificateJS1 from "../../images/CertificateJS1.jpeg";
-import certificateJS2 from "../../images/CertificateJS2.jpeg";
-import certificateDB from "../../images/CertificateDatabase.jpeg";
-import certificateReact from "../../images/CertificateReact.jpeg";
+import certificateGit from "../../assets/CertificateGit.jpeg";
+import certificateHTMLandCSS from "../../assets/CertificateHTMLandCSS.jpeg";
+import certificateJS1 from "../../assets/CertificateJS1.jpeg";
+import certificateJS2 from "../../assets/CertificateJS2.jpeg";
+import certificateDB from "../../assets/CertificateDatabase.jpeg";
+import certificateReact from "../../assets/CertificateReact.jpeg";
 import CertificateCard from "./CertificateCard/CertificateCard";
 
 const certificatesList = [

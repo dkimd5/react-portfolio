@@ -1,7 +1,7 @@
 import React from "react";
 import "./Skills.css";
-import responsiveIcon from "../../images/icon-tablet-phone-and-browser.svg";
-import w3cIcon from "../../images/icon-w3c.svg";
+import responsiveIcon from "../../assets/icon-tablet-phone-and-browser.svg";
+import w3cIcon from "../../assets/icon-w3c.svg";
 
 function Skills() {
   return (
