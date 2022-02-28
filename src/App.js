@@ -7,7 +7,6 @@ import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/Projects/Projects";
 import Certificates from "./components/Certificates/Certificates";
 import Skills from "./components/Skills/Skills";
-import "animate.css";
 
 function App() {
   return (
