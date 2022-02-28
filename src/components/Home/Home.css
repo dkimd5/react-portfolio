@@ -20,7 +20,7 @@
 .header__wrapper {
     position: absolute;
     top: 50%;
-    transform: translate(0, -50%);
+    /* transform: translate(0, -50%); */
 }
 
 .home__header {
@@ -29,6 +29,10 @@
     letter-spacing: 3px;
     font-family: "Mada", sans-serif;
     color: rgba(198, 201, 216, .75)!important;
+}
+
+.header__wrapper {
+    animation: fadeInDown 1s forwards;
 }
 
 .home__text2, .home__text3 {
@@ -44,6 +48,17 @@
 
 .home__text3 {
     color: #f9004d;
+}
+
+@keyframes fadeInDown {
+    0%{
+        opacity: 0;
+        transform: translateY(-90%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(-50%);
+    }
 }
 
 @media only screen and (max-width:1408px) {
