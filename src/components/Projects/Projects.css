@@ -12,8 +12,41 @@ div.heading {
     margin-bottom: 50px;
 }
 
+
+.projects__h3__wrp {
+    text-align: center;
+    width: 50%;
+    margin: 50px auto 0;
+}
+
+.projects__h3__wrp h3 {
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 1.3;
+    color: #7689d8;
+    letter-spacing: 0.02rem;
+    margin-bottom: 20px;
+}
+
+.projects__h3__wrp p {
+    color: #fff;
+    line-height: 1.55;
+    font-size: 1.2rem;
+    font-family: "Mada",sans-serif;
+    font-weight: 400;
+}
+
+.projects__h3__wrp a{
+    color: #f9004d;
+}
+
 @media only screen and (max-width: 1024px){
     .projects__wrapper {
         gap: 70px;
+    }
+
+    .projects__h3__wrp {
+        width: 100%;
     }
 }
