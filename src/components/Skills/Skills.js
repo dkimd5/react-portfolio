@@ -9,8 +9,7 @@ function Skills() {
       <div className="section__container">
         <h1 className="heading">Skills & Tools</h1>
         <h2 className="heading">
-          The skills, tools and technologies I use to bring your products to
-          life:
+          The skills, tools and technologies I use to bring your products to life:
         </h2>
         <ul className="box-container">
           <li className="box__icon">
@@ -71,10 +70,7 @@ function Skills() {
           </li>
           <li className="box__icon">
             <div className="container-img-i i-responsive">
-              <img
-                src={responsiveIcon}
-                alt="icon of tablet, phone and browser window."
-              />
+              <img src={responsiveIcon} alt="icon of tablet, phone and browser window." />
             </div>
             <p>Responsive Websites</p>
           </li>
@@ -87,12 +83,9 @@ function Skills() {
             </p>
           </li>
         </ul>
-        <div className="sills__h3__wrap">
+        <div className="skills__h3__wrap">
           <h3>Currently working on:</h3>
-          <p>
-            Improving my skills in, and understanding of vanilla JavaScript and
-            React.
-          </p>
+          <p>Improving my skills in, and understanding of vanilla JavaScript and React.</p>
         </div>
       </div>
     </div>

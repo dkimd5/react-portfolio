@@ -50,11 +50,11 @@ h2.heading.p__color {
     line-height: 5.5rem;
 }
 
-.sills__h3__wrap {
+.skills__h3__wrap {
     text-align: center;
 }
 
-.sills__h3__wrap > h3 {
+.skills__h3__wrap > h3 {
     font-size: 1.4rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -64,7 +64,7 @@ h2.heading.p__color {
     margin-bottom: 20px;
 }
 
-.sills__h3__wrap > p {
+.skills__h3__wrap > p {
     color: #fff;
     line-height: 1.55;
     font-size: 1.2rem;
