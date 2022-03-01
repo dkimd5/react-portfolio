@@ -5,6 +5,7 @@ import waxomImg from "../../assets/project-waxom-img.jpg";
 import messengerImg from "../../assets/project-messenger-img.jpg";
 import firegramImg from "../../assets/project-firegram-img.jpg";
 import momentumImg from "../../assets/project-momentum-img.jpeg";
+import defiImg from "../../assets/project-defi.jpg";
 
 const projectList = [
   {
@@ -12,8 +13,7 @@ const projectList = [
     deployLink: "https://dkimd5.github.io/Waxom/",
     githubLink: "https://github.com/dkimd5/Waxom",
     image: waxomImg,
-    description:
-      "One of my first work, made only with HTMl and CSS. Check out slider at the top)",
+    description: "One of my first work, made only with HTMl and CSS. Check out slider at the top)",
     icons: [
       "devicon devicon-html5-plain colored",
       "devicon devicon-css3-plain colored",
@@ -54,6 +54,21 @@ const projectList = [
     ],
   },
   {
+    name: "DeFi Crypto App",
+    deployLink: "https://dkimd5.github.io/react-defi-crypto-app/",
+    githubLink: "https://github.com/dkimd5/react-defi-crypto-app",
+    image: defiImg,
+    description:
+      "React app, made with crypto API CoinGecko. You can see top six cryptocurrencies and how they changing.",
+    icons: [
+      "devicon devicon-html5-plain colored",
+      "devicon devicon-css3-plain colored",
+      "devicon devicon-javascript-plain colored",
+      "devicon devicon-react-original colored",
+      "devicon fas fa-cogs",
+    ],
+  },
+  {
     name: "Firegram",
     deployLink: "https://react-app-firegram.herokuapp.com/",
     githubLink: "https://github.com/dkimd5/firegram",
@@ -76,8 +91,8 @@ function Projects() {
       <div className="section__container">
         <h1 className="heading">My Projects</h1>
         <h2 className="heading">
-          A Selection of stuff I've built or took part. There is not all works,
-          some are still in process, I will update this list in future
+          A Selection of stuff I've built or took part. There is not all works, some are still in
+          process, I will update this list in future
         </h2>
         <div className="projects__wrapper">
           {projectList.map((project) => (

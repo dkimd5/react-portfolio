@@ -11,7 +11,7 @@
     transform: translateY(-87%);
 }
 
-.project__card:nth-child(4n) .project__img:hover {
+.project__card:nth-child(5n) .project__img:hover {
     transform: translateY(-69%);
 }
 
