@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.9df18010.css",
-    "main.js": "/react-portfolio/static/js/main.71e0a285.js",
+    "main.css": "/react-portfolio/static/css/main.b5140873.css",
+    "main.js": "/react-portfolio/static/js/main.9c882f58.js",
     "static/media/project-waxom-img.jpg": "/react-portfolio/static/media/project-waxom-img.ec3ebf9bad754ce7865b.jpg",
     "static/media/home__bg.jpg": "/react-portfolio/static/media/home__bg.8cf3e0bd8a5870a780a9.jpg",
     "static/media/aboutImg.jpg": "/react-portfolio/static/media/aboutImg.d978d2ed15ccf41f30b5.jpg",
     "static/media/project-momentum-img.jpeg": "/react-portfolio/static/media/project-momentum-img.972e0d7c12f7ec45cd46.jpeg",
     "static/media/project-firegram-img.jpg": "/react-portfolio/static/media/project-firegram-img.eb045715a6b6d18f6ece.jpg",
+    "static/media/project-defi.jpg": "/react-portfolio/static/media/project-defi.ea4efd0d401e8d5aadd5.jpg",
     "static/media/CertificateDatabase.jpeg": "/react-portfolio/static/media/CertificateDatabase.2ee39f9cc4a28f1bee9b.jpeg",
     "static/media/CertificateGit.jpeg": "/react-portfolio/static/media/CertificateGit.975469fc5c0f639a2b1f.jpeg",
     "static/media/CertificateHTMLandCSS.jpeg": "/react-portfolio/static/media/CertificateHTMLandCSS.869851c4fd929ea910b7.jpeg",
@@ -20,11 +21,11 @@
     "index.html": "/react-portfolio/index.html",
     "static/media/vk-icon.svg": "/react-portfolio/static/media/vk-icon.cd2e6208f6fdaa0fa1ce8768c7845fa3.svg",
     "static/media/certificate-external-link.svg": "/react-portfolio/static/media/certificate-external-link.2e0cc60bd60cc46f66d52e27cbfdf26b.svg",
-    "main.9df18010.css.map": "/react-portfolio/static/css/main.9df18010.css.map",
-    "main.71e0a285.js.map": "/react-portfolio/static/js/main.71e0a285.js.map"
+    "main.b5140873.css.map": "/react-portfolio/static/css/main.b5140873.css.map",
+    "main.9c882f58.js.map": "/react-portfolio/static/js/main.9c882f58.js.map"
   },
   "entrypoints": [
-    "static/css/main.9df18010.css",
-    "static/js/main.71e0a285.js"
+    "static/css/main.b5140873.css",
+    "static/js/main.9c882f58.js"
   ]
 }
