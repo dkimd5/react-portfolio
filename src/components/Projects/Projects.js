@@ -105,8 +105,8 @@ function Projects() {
             Repository of <a href="https://github.com/dkimd5/react-portfolio">this page</a>
           </p>
           <p className="additional">
-            And a project made by team of five, two backend and 3 frontend developers. It is online
-            book of recipes, with authentication and flexible search. You can look it{" "}
+            And a project made by team of five, two backend and three frontend developers. It is
+            online book of recipes, with authentication and flexible search. You can look it{" "}
             <a href="https://github.com/MaxLebedinsky/CookBook">here</a>
           </p>
         </div>
