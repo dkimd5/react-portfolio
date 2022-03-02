@@ -19,12 +19,7 @@ function Contact() {
     e.preventDefault();
 
     emailjs
-      .sendForm(
-        "service_mu9wrfk",
-        "template_0unfuga",
-        form.current,
-        "user_WBPcOWSLnWOWh1sMWDSsD"
-      )
+      .sendForm("service_mu9wrfk", "template_0unfuga", form.current, "user_WBPcOWSLnWOWh1sMWDSsD")
       .then(
         (result) => {
           setIsError(false);
@@ -46,12 +41,11 @@ function Contact() {
         <div className="contact__content__wrp">
           <div className="contact__form">
             <p className="p__text">
-              Say hi, ask for my resume or see if we can build something amazing
-              together? I'd love to hear from you!
+              Say hi, ask for my resume or see if we can build something amazing together? I'd love
+              to hear from you!
               <br />
               <br />
-              Fill in your info in the form below and I look forward to hearing
-              from you!
+              Fill in your info in the form below and I look forward to hearing from you!
             </p>
             <form ref={form} onSubmit={handleSubmit}>
               <input
@@ -72,11 +66,7 @@ function Contact() {
                 className="contact subject"
                 placeholder="Write a Subject"
               />
-              <textarea
-                name="message"
-                id="message"
-                placeholder="Write Your message"
-              ></textarea>
+              <textarea name="message" id="message" placeholder="Write Your message"></textarea>
               <div className="btn__submit__msg__wrp">
                 <button className="btn contact" type="submit">
                   Send Email
@@ -89,9 +79,7 @@ function Contact() {
                   ""
                 )}
                 {isError ? (
-                  <p className="success_error_text error_color">
-                    Oops, something went wrong
-                  </p>
+                  <p className="success_error_text error_color">Oops, something went wrong</p>
                 ) : (
                   ""
                 )}
@@ -105,20 +93,12 @@ function Contact() {
             </p>
             <ul className="socials__list">
               <li>
-                <a
-                  href="https://github.com/dkimd5"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="https://github.com/kim-ensu" target="_blank" rel="noreferrer">
                   <AiFillGithub size={40} className="icon-color" />
                 </a>
               </li>
               <li>
-                <a
-                  href="https://www.instagram.com/kim_en_su/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="https://www.instagram.com/kim_en_su/" target="_blank" rel="noreferrer">
                   <AiOutlineInstagram size={40} className="icon-color" />
                 </a>
               </li>
@@ -126,29 +106,17 @@ function Contact() {
                 <AiFillLinkedin size={40} className="icon-color" />
               </li>
               <li>
-                <a
-                  href="https://wa.me/+79169143677"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="https://wa.me/+79169143677" target="_blank" rel="noreferrer">
                   <AiOutlineWhatsApp size={40} className="icon-color" />
                 </a>
               </li>
               <li>
-                <a
-                  href="tg://resolve?domain=kim_en_su"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="tg://resolve?domain=kim_en_su" target="_blank" rel="noreferrer">
                   <BsTelegram size={40} className="icon-color" />
                 </a>
               </li>
               <li>
-                <a
-                  href="https://vk.com/dimonkim777"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="https://vk.com/dimonkim777" target="_blank" rel="noreferrer">
                   <img src={vkIcon} alt="vk icon" className="vk-icon" />
                 </a>
               </li>
