@@ -10,8 +10,8 @@ import defiImg from "../../assets/project-defi.jpg";
 const projectList = [
   {
     name: "Waxom",
-    deployLink: "https://dkimd5.github.io/Waxom/",
-    githubLink: "https://github.com/dkimd5/Waxom",
+    deployLink: "https://kim-ensu.github.io/waxom/",
+    githubLink: "https://github.com/kim-ensu/waxom",
     image: waxomImg,
     description: "One of my first work, made only with HTMl and CSS. Check out slider at the top)",
     icons: [
@@ -22,8 +22,8 @@ const projectList = [
   },
   {
     name: "Messenger",
-    deployLink: "https://react-messenger-dkimd5.herokuapp.com/",
-    githubLink: "https://github.com/dkimd5/React-GB",
+    deployLink: "https://react-messenger-kim-ensu.herokuapp.com/",
+    githubLink: "https://github.com/kim-ensu/react-messenger-gb",
     image: messengerImg,
     description:
       "This app was my first time I touched React, I decided to make a little messenger, it's not a lot of functionality, but I am still working on it. ",
@@ -40,8 +40,8 @@ const projectList = [
   },
   {
     name: "Momentum",
-    deployLink: "https://dkimd5.github.io/momentum-clone/",
-    githubLink: "https://github.com/dkimd5/momentum-clone",
+    deployLink: "https://kim-ensu.github.io/momentum-clone/",
+    githubLink: "https://github.com/kim-ensu/momentum-clone",
     image: momentumImg,
     description:
       "A small react app based on google momentum, made with weather, random quotes apis and axios",
@@ -55,8 +55,8 @@ const projectList = [
   },
   {
     name: "DeFi Crypto App",
-    deployLink: "https://dkimd5.github.io/react-defi-crypto-app/",
-    githubLink: "https://github.com/dkimd5/react-defi-crypto-app",
+    deployLink: "https://kim-ensu.github.io/react-defi-crypto-app/",
+    githubLink: "https://github.com/kim-ensu/react-defi-crypto-app",
     image: defiImg,
     description:
       "React app, made with crypto API CoinGecko. You can see top six cryptocurrencies and how they changing.",
@@ -71,7 +71,7 @@ const projectList = [
   {
     name: "Firegram",
     deployLink: "https://react-app-firegram.herokuapp.com/",
-    githubLink: "https://github.com/dkimd5/firegram",
+    githubLink: "https://github.com/kim-ensu/firegram",
     image: firegramImg,
     description:
       "Upload and enjoy your favourite arts, photos and images to this art gallery. Made with ReactJS and Firebase, also added infinite scroll function for your comfort",
@@ -102,7 +102,7 @@ function Projects() {
         <div className="projects__h3__wrp">
           <h3>You also can check this repositories</h3>
           <p className="additional">
-            Repository of <a href="https://github.com/dkimd5/react-portfolio">this page</a>
+            Repository of <a href="https://github.com/kim-ensu/react-portfolio">this page</a>
           </p>
           <p className="additional">
             And a project made by team of five, two backend and three frontend developers. It is
