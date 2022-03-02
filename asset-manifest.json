@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.b5140873.css",
-    "main.js": "/react-portfolio/static/js/main.853c2994.js",
+    "main.js": "/react-portfolio/static/js/main.da2b4e26.js",
     "static/media/project-waxom-img.jpg": "/react-portfolio/static/media/project-waxom-img.ec3ebf9bad754ce7865b.jpg",
     "static/media/home__bg.jpg": "/react-portfolio/static/media/home__bg.8cf3e0bd8a5870a780a9.jpg",
     "static/media/aboutImg.jpg": "/react-portfolio/static/media/aboutImg.d978d2ed15ccf41f30b5.jpg",
@@ -22,10 +22,10 @@
     "static/media/vk-icon.svg": "/react-portfolio/static/media/vk-icon.cd2e6208f6fdaa0fa1ce8768c7845fa3.svg",
     "static/media/certificate-external-link.svg": "/react-portfolio/static/media/certificate-external-link.2e0cc60bd60cc46f66d52e27cbfdf26b.svg",
     "main.b5140873.css.map": "/react-portfolio/static/css/main.b5140873.css.map",
-    "main.853c2994.js.map": "/react-portfolio/static/js/main.853c2994.js.map"
+    "main.da2b4e26.js.map": "/react-portfolio/static/js/main.da2b4e26.js.map"
   },
   "entrypoints": [
     "static/css/main.b5140873.css",
-    "static/js/main.853c2994.js"
+    "static/js/main.da2b4e26.js"
   ]
 }
