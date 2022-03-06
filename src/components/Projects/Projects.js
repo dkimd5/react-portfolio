@@ -2,7 +2,7 @@ import React from "react";
 import ProjectCard from "./ProjectCard/ProjectCard";
 import "./Projects.css";
 import waxomImg from "../../assets/project-waxom-img.jpg";
-import messengerImg from "../../assets/project-messenger-img.jpg";
+import messengerImg from "../../assets/project-unichat-img2.jpg";
 import firegramImg from "../../assets/project-firegram-img.jpg";
 import momentumImg from "../../assets/project-momentum-img.jpeg";
 import defiImg from "../../assets/project-defi.jpg";
@@ -21,21 +21,17 @@ const projectList = [
     ],
   },
   {
-    name: "Messenger",
-    deployLink: "https://react-messenger-kim-ensu.herokuapp.com/",
-    githubLink: "https://github.com/kim-ensu/react-messenger-gb",
+    name: "Unichat",
+    deployLink: "https://unichatbykimensu.netlify.app/",
+    githubLink: "https://github.com/kim-ensu/react-app-unichat",
     image: messengerImg,
     description:
-      "This app was my first time I touched React, I decided to make a little messenger, it's not a lot of functionality, but I am still working on it. ",
+      "It is an application where you can create chatrooms and communicate with users all over the world!",
     icons: [
       "devicon devicon-html5-plain colored",
       "devicon devicon-css3-plain colored",
       "devicon devicon-javascript-plain colored",
-      "devicon devicon-sass-original colored",
-      "devicon devicon-webpack-plain colored",
       "devicon devicon-react-original colored",
-      "devicon devicon-redux-original colored",
-      "devicon devicon-materialui-plain colored",
     ],
   },
   {

@@ -106,7 +106,7 @@ function Contact() {
                 <AiFillLinkedin size={40} className="icon-color" />
               </li>
               <li>
-                <a href="https://wa.me/+79169143677" target="_blank" rel="noreferrer">
+                <a href="https://wa.me/79169143677" target="_blank" rel="noreferrer">
                   <AiOutlineWhatsApp size={40} className="icon-color" />
                 </a>
               </li>
