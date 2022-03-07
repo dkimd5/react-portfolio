@@ -2,7 +2,7 @@ import React from "react";
 import ProjectCard from "./ProjectCard/ProjectCard";
 import "./Projects.css";
 import waxomImg from "../../assets/project-waxom-img.jpg";
-import messengerImg from "../../assets/project-unichat-img2.jpg";
+import messengerImg from "../../assets/project-unichat-img.jpg";
 import firegramImg from "../../assets/project-firegram-img.jpg";
 import momentumImg from "../../assets/project-momentum-img.jpeg";
 import defiImg from "../../assets/project-defi.jpg";
