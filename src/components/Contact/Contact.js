@@ -116,7 +116,7 @@ function Contact() {
                 </a>
               </li>
               <li>
-                <a href="https://vk.com/dimonkim777" target="_blank" rel="noreferrer">
+                <a href="https://vk.com/kim_en_su" target="_blank" rel="noreferrer">
                   <img src={vkIcon} alt="vk icon" className="vk-icon" />
                 </a>
               </li>
