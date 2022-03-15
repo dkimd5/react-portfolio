@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.b5140873.css",
-    "main.js": "/react-portfolio/static/js/main.ab0092cf.js",
+    "main.js": "/react-portfolio/static/js/main.5bd38886.js",
     "static/media/project-waxom-img.jpg": "/react-portfolio/static/media/project-waxom-img.ec3ebf9bad754ce7865b.jpg",
     "static/media/home__bg.jpg": "/react-portfolio/static/media/home__bg.8cf3e0bd8a5870a780a9.jpg",
+    "static/media/project-unichat-img.jpg": "/react-portfolio/static/media/project-unichat-img.31daca122cb8bbe17f95.jpg",
     "static/media/aboutImg.jpg": "/react-portfolio/static/media/aboutImg.d978d2ed15ccf41f30b5.jpg",
     "static/media/project-momentum-img.jpeg": "/react-portfolio/static/media/project-momentum-img.972e0d7c12f7ec45cd46.jpeg",
     "static/media/project-firegram-img.jpg": "/react-portfolio/static/media/project-firegram-img.eb045715a6b6d18f6ece.jpg",
@@ -14,7 +15,6 @@
     "static/media/CertificateJS1.jpeg": "/react-portfolio/static/media/CertificateJS1.bfb7e9e2487ee2b46320.jpeg",
     "static/media/CertificateJS2.jpeg": "/react-portfolio/static/media/CertificateJS2.c203e44eb890b76f34dc.jpeg",
     "static/media/CertificateReact.jpeg": "/react-portfolio/static/media/CertificateReact.941b609f5d3a845d3b2c.jpeg",
-    "static/media/project-messenger-img.jpg": "/react-portfolio/static/media/project-messenger-img.7bac8597a26a5b6e9c09.jpg",
     "static/media/icon-w3c.svg": "/react-portfolio/static/media/icon-w3c.6d95007b8040f09a550240ea983e24f7.svg",
     "static/media/icon-tablet-phone-and-browser.svg": "/react-portfolio/static/media/icon-tablet-phone-and-browser.fa100fb673d3b5d23f6402c7b5ab321a.svg",
     "static/media/certificate-loupe.svg": "/react-portfolio/static/media/certificate-loupe.a70eb1e948416351b8584071f9d655f5.svg",
@@ -22,10 +22,10 @@
     "static/media/vk-icon.svg": "/react-portfolio/static/media/vk-icon.cd2e6208f6fdaa0fa1ce8768c7845fa3.svg",
     "static/media/certificate-external-link.svg": "/react-portfolio/static/media/certificate-external-link.2e0cc60bd60cc46f66d52e27cbfdf26b.svg",
     "main.b5140873.css.map": "/react-portfolio/static/css/main.b5140873.css.map",
-    "main.ab0092cf.js.map": "/react-portfolio/static/js/main.ab0092cf.js.map"
+    "main.5bd38886.js.map": "/react-portfolio/static/js/main.5bd38886.js.map"
   },
   "entrypoints": [
     "static/css/main.b5140873.css",
-    "static/js/main.ab0092cf.js"
+    "static/js/main.5bd38886.js"
   ]
 }
