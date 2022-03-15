@@ -121,6 +121,9 @@ function Contact() {
                 </a>
               </li>
             </ul>
+            <p className="p__text restrictions">
+              Due to restrictions, there are may be problems with Instagram and LinkedIn
+            </p>
           </div>
         </div>
       </div>

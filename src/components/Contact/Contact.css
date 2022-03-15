@@ -104,6 +104,11 @@ input.contact:focus, textarea#message:focus {
     color: #f9004d;
 }
 
+.restrictions {
+    margin-top: 10px;
+    color: #394ff4;
+}
+
 @media only screen and (max-width:1216px) {
     .contact__socials {
         width: 50%;
