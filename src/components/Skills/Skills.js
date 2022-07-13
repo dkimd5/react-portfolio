@@ -1,7 +1,5 @@
 import React from "react";
 import "./Skills.css";
-import responsiveIcon from "../../assets/icon-tablet-phone-and-browser.svg";
-import w3cIcon from "../../assets/icon-w3c.svg";
 
 function Skills() {
   return (
@@ -67,20 +65,6 @@ function Skills() {
           <li className="box__icon">
             <i className="devicon devicon-materialui-plain colored"></i>
             <p>Material-UI</p>
-          </li>
-          <li className="box__icon">
-            <div className="container-img-i i-responsive">
-              <img src={responsiveIcon} alt="icon of tablet, phone and browser window." />
-            </div>
-            <p>Responsive Websites</p>
-          </li>
-          <li className="box__icon">
-            <div className="container-img-i i-w3c">
-              <img src={w3cIcon} alt="W3C logo" />
-            </div>
-            <p>
-              Web <br /> Accessibility
-            </p>
           </li>
         </ul>
         <div className="skills__h3__wrap">
