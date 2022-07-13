@@ -5,7 +5,11 @@ const iconsList = [
   { className: "devicon devicon-html5-plain colored", title: "HTML5" },
   { className: "devicon devicon-css3-plain colored", title: "CSS3" },
   { className: "devicon devicon-javascript-plain colored", title: "JavaScript" },
+  { className: "devicon devicon-typescript-plain colored", title: "TypeScript" },
   { className: "devicon devicon-react-original colored", title: "React" },
+  { className: "devicon devicon-nextjs-original", title: "Nextjs", color: "devicon-color" },
+  { className: "devicon devicon-redux-original colored", title: "Redux" },
+  { className: "devicon devicon-webpack-plain colored", title: "Webpack" },
   { className: "devicon devicon-git-plain colored", title: "Git" },
   { className: "devicon devicon-github-original devicon-color", title: "Github" },
   { className: "devicon devicon-firebase-plain colored", title: "Firebase" },
@@ -13,11 +17,7 @@ const iconsList = [
   { className: "devicon fas fa-cogs", title: "RESTful APIs", color: "devicon-color" },
   { className: "devicon devicon-vscode-plain colored", title: "VS Code" },
   { className: "devicon fas fa-terminal", title: "Command Line", color: "devicon-color2" },
-  { className: "devicon devicon-webpack-plain colored", title: "Webpack" },
-  { className: "devicon devicon-redux-original colored", title: "Redux" },
   { className: "devicon devicon-materialui-plain colored", title: "Material-UI" },
-  { className: "devicon-nextjs-original", title: "Nextjs", color: "devicon-color" },
-  { className: "devicon-typescript-plain colored", title: "TypeScript" },
 ];
 
 function Skills() {
